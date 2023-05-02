@@ -8,5 +8,7 @@ This repository contains the materials for the course Sustainable Digitalization
 | ------- | ------ |
 | Day 1 - Sustainability | tbd |
 
-## Reading list
+## Materials
+
+Course content and links to all reading materials can be found here.
 
