@@ -1,6 +1,7 @@
 project:
   type: book
-  output-dir: book
+  output-dir: ../_docs
+  execute-dir: file
 
 book:
   title: "Sustainable Digitalization - A primer"
