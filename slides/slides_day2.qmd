@@ -1,0 +1,28 @@
+---
+title: "Sustainable Digitalization - A primer"
+subtitle: "DSI PhD Excellence Program Course 2023 - Day 2"
+author: "Mario Angst"
+format:
+  revealjs:
+    self-contained: true
+    footer: "Sustainable Digitalization - A primer"
+    logo: "../img/logo.png"
+slide-level: 2
+title-slide-attributes:
+  data-background-image: ../img/logo.png
+  data-background-size: 80%
+---
+
+## Day 2 - Learning goals
+
+- The students are aware of current research on non-alignment of digitalization with regard to sustainability goals.
+- The students are aware of proposed solutions.
+- The students can relate their own research to questions of sustainable digitalization.
+
+- The lecturer does support creative group work
+
+## Day 2 - Program
+
+- Input: The case for a digital reset
+- Reflection: Sustainability in my own research
+- Creative group work: Build your own susdigi research project

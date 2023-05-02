@@ -1,0 +1,105 @@
+---
+title: "Sustainable Digitalization - A primer"
+subtitle: "DSI PhD Excellence Program Course 2023 - Day 1"
+author: "Mario Angst"
+format:
+  revealjs:
+    self-contained: true
+    footer: "Sustainable Digitalization - A primer"
+    logo: "../img/logo.png"
+    slide-level: 2
+title-slide-attributes:
+  data-background-image: ../img/logo.png
+  data-background-size: 80%
+---
+
+# Course overview
+
+## Resources
+
+Materials and slides are accessible at https://github.com/marioangst/susdigi_course
+
+Slides under `/slides`
+
+Materials (reading links and course content summaries) are hosted in the same repository in a living, book-like document:
+
+
+## Lecturer
+
+Mario Angst 
+PhD in Political Science
+
+Past: 🌊,🌲,🌾,⚡,(🛢) governance 
+
+Now: 🏙️ and 🖥️+🍀
+
+Computational Social Science (mostly network analysis, NLP, Bayesian modeling)
+
+Biased toward strong sustainability, bikes and local solutions.
+
+
+## Day 1 - Learning goals
+
+-   The students can differentiate between sustainability as a normative concept and socio-technical sustainability transformations.
+
+-   The students are aware of the three core sustainability strategies.
+
+-   The students are aware of existing frameworks to relate digitalization to sustainability transformations.
+
+-   The lecturer communicates course content clearly without going off on too many tangents.
+
+## Day 1 - Program
+
+-   Introduction to the course
+-   Group exercise
+-   Input Sustainability
+-   Break
+-   Input sustainable digitalization
+-   Deep dive into sufficiency: Guest speaker Leonard Creutzburg
+-   Sustainability in research and teaching at UZH: Guest speaker Jeannette Behringer
+
+## Day 2 - Program
+
+-   What are the problems?
+-   What could be solutions?
+-   How does my research relate?
+
+# Sustainability as a normative concept
+
+## Group exercise
+
+We'll form groups of four by counting to $\frac{n}{4}$ in the group.
+
+Sit together with people sharing your number.
+
+*What does sustainability mean to you?*
+
+You do *not* need to prepare or share anything after.
+
+## A key differentiation
+
+-   The *discoursively contested* normative concept. Or concept*s* with their associated social configuration of actors involved in discourse.
+    -   Strong vs. weak sustainability
+-   The socio-technical transformation oriented toward the concept.
+
+## The Brundtland definition in context
+
+## Modern sustainability science concepts
+
+-   Planetary boundaries
+-   Doughnut economics and post-growth
+-   The Anthropocene and social-ecological systems
+-   The UN Agenda 2030
+
+# Sustainability transformations
+
+## Transformation
+
+-   In the Polanyi sense.
+-   Socio-technical
+
+## Twin decoupling
+
+## Many transformations
+
+-   

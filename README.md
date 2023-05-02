@@ -6,9 +6,10 @@ This repository contains the materials for the course Sustainable Digitalization
 
 ## Slides
 
-| Lecture                | Slides |
-|------------------------|--------|
-| Day 1 - Sustainability | tbd    |
+| Lecture                | Slides                                    |
+|------------------------|-------------------------------------------|
+| Day 1 | [Slides Day 1](./slides/slides_day1.html) |
+| Day 2 | [Slides Day 2](./slides/slides_day2.html) |
 
 ## Materials
 

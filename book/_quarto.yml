@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: book
 
 book:
-  title: "book"
-  author: "Jane Doe"
+  title: "Sustainable Digitalization - A primer"
+  author: "Mario Angst"
   date: "02/05/2023"
   chapters:
     - index.qmd
@@ -16,8 +17,6 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 
