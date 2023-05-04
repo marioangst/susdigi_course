@@ -1,3 +1,5 @@
-# Welcome {.unnumbered}
+# Content {.unnumbered}
 
 ![](../img/logo.png)
+
+This booklet contains further reading and minimal summaries to accompany the course "Sustainable Digitalization - A primer".
