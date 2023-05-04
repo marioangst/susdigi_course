@@ -1,5 +1,7 @@
 # Sustainable Digitalization - A primer
 
+<img src="./book/images/leaf_image.png"  width="50%" height="100%">
+
 This repository contains the materials for the course Sustainable Digitalization offered as part of the Digital Society Initiative (DSI) PhD excellence program at the University of Zürich in 2023.
 
 ## Slides
@@ -15,5 +17,4 @@ Course content and links to all/ further reading materials can be found under:
 
 https://marioangst.github.io/susdigi_course/
 
-![](./book/images/leaf_image.png)
 
