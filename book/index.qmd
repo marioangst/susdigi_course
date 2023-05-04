@@ -1,5 +1,13 @@
+![](images/leaf_image.png)
+
 # Content {.unnumbered}
 
-![](../img/logo.png)
-
 This booklet contains further reading and minimal summaries to accompany the course "Sustainable Digitalization - A primer".
+
+The course is focused on an interdisciplinary audience of PhD students with little sustainability science knowledge, with lectures and discussion on the material over two half-day slots.
+
+In terms of knowledge, the goal of the course is:
+
+-   to introduce enough core sustainability science concepts to make a discussion of sustainable digitalization possible in [Chapter -@sec-sus].
+-   to establish a common understanding of digitalization as a socio-technical process in [Chapter -@sec-digi].
+-   to introduce current research on sustainable digitalization, including problems of non-alignment of digitalization processes with sustainability goals and potential solutions [Chapter -@sec-susdigi].

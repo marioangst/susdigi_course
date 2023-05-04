@@ -6,7 +6,8 @@ project:
 book:
   title: "Sustainable Digitalization - A primer"
   author: "Mario Angst"
-  date: "02/05/2023"
+  date: "04/05/2023"
+  favicon: logo.png
   chapters:
     - index.qmd
     - sus.qmd

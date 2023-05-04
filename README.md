@@ -13,4 +13,7 @@ This repository contains the materials for the course Sustainable Digitalization
 
 ## Materials
 
-Course content and links to all reading materials can be found here.
+Course content and links to all/ further reading materials can be found under: 
+
+https://marioangst.github.io/susdigi_course/
+

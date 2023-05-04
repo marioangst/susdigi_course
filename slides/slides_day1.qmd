@@ -19,10 +19,9 @@ title-slide-attributes:
 
 Materials and slides are accessible at https://github.com/marioangst/susdigi_course
 
-Slides under `/slides`
+Online booklet with minimal content summaries/ further reading:
 
-Materials (reading links and course content summaries) are hosted in the same repository in a living, book-like document:
-
+https://marioangst.github.io/susdigi_course/
 
 ## Lecturer
 
@@ -46,6 +45,8 @@ Biased toward strong sustainability, bikes and local solutions.
 
 -   The students are aware of existing frameworks to relate digitalization to sustainability transformations.
 
+- The students are aware of current research on (non-)alignment of digitalization with regard to sustainability goals.
+
 -   The lecturer communicates course content clearly without going off on too many tangents.
 
 ## Day 1 - Program
@@ -55,14 +56,15 @@ Biased toward strong sustainability, bikes and local solutions.
 -   Input Sustainability
 -   Break
 -   Input sustainable digitalization
+-   Input non-alignment sus+digi
 -   Deep dive into sufficiency: Guest speaker Leonard Creutzburg
 -   Sustainability in research and teaching at UZH: Guest speaker Jeannette Behringer
 
 ## Day 2 - Program
 
--   What are the problems?
--   What could be solutions?
+-   Solutions to non-alignment
 -   How does my research relate?
+-   Build your own sus+digi project
 
 # Sustainability as a normative concept
 
@@ -82,7 +84,12 @@ You do *not* need to prepare or share anything after.
     -   Strong vs. weak sustainability
 -   The socio-technical transformation oriented toward the concept.
 
-## The Brundtland definition in context
+## The Brundtland definition
+
+“Environment” is where we all live; and “development” is what we all do in attempting to improve
+our lot within that abode. The two are inseparable.... Humanity has the ability to make development
+sustainable: to ensure that it meets the needs of the present without compromising the ability of future
+generations to meet their own needs. (3, pp. ix, 8)
 
 ## Modern sustainability science concepts
 
