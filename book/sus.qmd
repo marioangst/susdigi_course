@@ -2,7 +2,7 @@
 
 This section gives a short introduction to sustainability and pointers to relevant debates for the purpose of establishing enough core sustainability science concepts to make a discussion of sustainable digitalization possible.
 
-::: {.column-margin}
+::: column-margin
 For German readers, Jeannette Behringer gives a very concise general introduction to many classic sustainability concepts in @Behringer2022-iv
 
 @Clark2020-mi gives a good overview over sustainability science as a research field
@@ -10,32 +10,21 @@ For German readers, Jeannette Behringer gives a very concise general introductio
 
 Fundamentally, in this context, a key distinction to be made when discussing sustainability is the distinction between:
 
-- Sustainability as a normative concept, including its discoursive contestation and imaginaries
-- Sustainability *transformations* as socio-technical change processes oriented toward sustainability
-
+-   Sustainability as a normative concept, including its discoursive contestation and imaginaries
+-   Sustainability *transformations* as socio-technical change processes oriented toward sustainability
 
 ## Sustainability as a normative concept
 
 ### The Brundtland definition
 
-This is the original (in the sense of the first widely read and most referenced) mission statement/ definition in [ @The_World_Commission_on_Environment_and_Development1987-fx, Conclusion, emphasis added]:
+This is the original (in the sense of the first widely read and most referenced) mission statement/ definition in [@The_World_Commission_on_Environment_and_Development1987-fx, Conclusion, emphasis added]:
 
-> 1. Sustainable development is development that meets the needs of the present without compromising the
-ability of future generations to meet their own needs. It contains within it two key concepts:
-  • the concept of 'needs', in particular the essential needs of the world's poor, to which overriding priority
-should be given; and
-  • the idea of limitations imposed by the state of technology and social organization on the environment's
-ability to meet present and future needs. 
-2. Thus the goals of economic and social development must be defined in terms of sustainability in all countries
-- developed or developing, market-oriented or centrally planned. Interpretations will vary, but must share certain
-general features and must flow from a consensus on the basic concept of sustainable development and on a
-broad strategic framework for achieving it.
-3. Development involves a progressive transformation of economy and society. A development path that is
-sustainable in a physical sense could theoretically be pursued even in a rigid social and political setting. But
-physical sustainability cannot be secured unless development policies pay attention to such considerations as
-changes in access to resources and in the distribution of costs and benefits. *Even the narrow notion of physical
-sustainability implies a concern for social equity between generations, a concern that must logically be
-extended to equity within each generation*.
+> 1.  Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It contains within it two key concepts: • the concept of 'needs', in particular the essential needs of the world's poor, to which overriding priority should be given; and • the idea of limitations imposed by the state of technology and social organization on the environment's ability to meet present and future needs.
+> 2.  Thus the goals of economic and social development must be defined in terms of sustainability in all countries
+>
+> -   developed or developing, market-oriented or centrally planned. Interpretations will vary, but must share certain general features and must flow from a consensus on the basic concept of sustainable development and on a broad strategic framework for achieving it.
+>
+> 3.  Development involves a progressive transformation of economy and society. A development path that is sustainable in a physical sense could theoretically be pursued even in a rigid social and political setting. But physical sustainability cannot be secured unless development policies pay attention to such considerations as changes in access to resources and in the distribution of costs and benefits. *Even the narrow notion of physical sustainability implies a concern for social equity between generations, a concern that must logically be extended to equity within each generation*.
 
 The Brundtland definition is still relevant today and often referenced. Often, it is reduced to the first line in point 1. above. Seeing the definition in context is helpful to recognize that *intra- and intergenerational justice* (especially distributive justice) has always been at the core of sustainability as a normative concept.
 
@@ -43,19 +32,19 @@ The Brundtland definition is still relevant today and often referenced. Often, i
 
 Before and after the Brundtlandt definition, many different variations on sustainability definitions emerged. A key, helpful way to make sense of how people talk about and define sustainability is the differentiation between strong and weak sustainability [@Ott2011-gl]. On important difference between strong and weak sustainability concepts relates to the possibility of substitution:
 
-::: {.column-margin}
+::: column-margin
 We will not go into the widespread "three pillars" (variants of economy, society and nature spheres of sustainability) model here, except for noting that its foundations and origins are very unclear and shaky - and that upon closer inspection, it just continues to raise questions because of that [@Purvis2019-ox].
 :::
 
-- Weak sustainability concepts basically argue that "nature" (without going into nature as a concept here, which has many pitfalls) or natural capital is nothing special among other forms of capital and can be substituted at will. This is important for sustainability when considering the world that a current generation should leave to future generations. @Ott2011-gl make the example of forests - under weak sustainability, a world without forests would be a perfectly acceptable world to leave to future generations, given that all functions of forests can be fulfilled by other means (eg. wood replacements, direct carbon capture, nature films..) *and* that this substitution is cost-effective (non-declining utility over time).
+-   Weak sustainability concepts basically argue that "nature" (without going into nature as a concept here, which has many pitfalls) or natural capital is nothing special among other forms of capital and can be substituted at will. This is important for sustainability when considering the world that a current generation should leave to future generations. @Ott2011-gl make the example of forests - under weak sustainability, a world without forests would be a perfectly acceptable world to leave to future generations, given that all functions of forests can be fulfilled by other means (eg. wood replacements, direct carbon capture, nature films..) *and* that this substitution is cost-effective (non-declining utility over time).
 
-::: {.column-margin}
+::: column-margin
 This notion of substitution obviously is very relevant when considering sustainability in the light of digitalization.
 :::
 
-- Strong sustainability concepts are of the "nature is the foundation, not a pillar" variant and advocate that natural capital needs at least to be maintained for future generations. The argument is generally not about the possibility of substitution but its desirability and advocates of strong sustainability use arguments (among others) such as multi-functionality of the biosphere, the need to not reduce options for future generations or the precautionary principle [@Ott2011-gl, p. 20].
+-   Strong sustainability concepts are of the "nature is the foundation, not a pillar" variant and advocate that natural capital needs at least to be maintained for future generations. The argument is generally not about the possibility of substitution but its desirability and advocates of strong sustainability use arguments (among others) such as multi-functionality of the biosphere, the need to not reduce options for future generations or the precautionary principle [@Ott2011-gl, p. 20].
 
-::: {.column-margin}
+::: column-margin
 It also needs to be noted here that notions of substitution rest on very specific ways of thinking about relationships between nature and humans, which are not by any means shared across knowledge systems across the world.
 :::
 
@@ -63,39 +52,43 @@ It also needs to be noted here that notions of substitution rest on very specifi
 
 Sustainability is an interconnected problem of distributive justice and resource use. One of the key developments of the sustainability science literature was the differentiation of three essential strategies that are possible to reduce resource use. In a simplified form:
 
-- *Efficiency* strategies reduce the resource used per unit of output. For example, reducing the amount of energy used for a computer to compute a specific task.
-- *Sufficiency* strategies reduce the actual number of units of output to reduce resource use impact. For example, one can ask if the specific computation is actually necessary if it has an environmental impact. There is much more to the concept, as it is often connected to broader questions of what is really needed (or suffices) for a good life but we'll keep the definition simple for our purposes here.
-- *Consistency* strategies try to embed entire processes in natural cycles. As such, consistency is often only possible on a larger level (circular economy concepts). For example, if energy used for a computation is sourced from renewable energy sources and the hardware components making the computation possible can be recycled.
+-   *Efficiency* strategies reduce the resource used per unit of output. For example, reducing the amount of energy used for a computer to compute a specific task.
+-   *Sufficiency* strategies reduce the actual number of units of output to reduce resource use impact. For example, one can ask if the specific computation is actually necessary if it has an environmental impact. There is much more to the concept, as it is often connected to broader questions of what is really needed (or suffices) for a good life but we'll keep the definition simple for our purposes here.
+-   *Consistency* strategies try to embed entire processes in natural cycles. As such, consistency is often only possible on a larger level (circular economy concepts). For example, if energy used for a computation is sourced from renewable energy sources and the hardware components making the computation possible can be recycled.
 
 The combination of efficiency and sufficiency strategies is often refered to as twin or double decoupling [@Schneidewind2018-aj] (as in decoupling economic activity from resource use), compared to single decoupling as used in many green growth narratives, which often only targets efficiency strategies.
 
-
-### Sustainability imaginaries
+### Sustainability imaginaries {#sec-susimaginaries}
 
 Sustainability as a normative concept ultimately needs to be and is translated into actions, where it is needed to legitimize these actions. As such, the normative concept of sustainability can also be studied from a more sociological perspective. Various configurations of actors leverage the concept, rephrase, translate and adapt it in an ongoing discourse [@Gopel2016-hg]. In doing so, they draw up visions and imaginaries for future societal pathways.
 
-::: {.column-margin}
+::: column-margin
 It is not surprising that many sustainability scientists are obsessed with science fiction. "In a certain sense, a sustainable world is a fiction" [@Martens2006-di, p. 40]. For a beautiful example of science fiction based sustainability imaginaries, see <a href="https://radicaloceanfutures.earth">https://radicaloceanfutures.earth</a>.
 :::
 
 One interesting starting point here is the idea of ideal typical imaginaries of "futures of sustainability", modernization, transformation and control [@Adloff2019-my], which can also be considered related to digitalization [@Lenz2021-rl]. These imaginaries are not actual futures but reference points that actors can refer to in discourses.
 
-- Sustainability as Modernization: Based on weak sustainability concepts, sustainability as modernization describes futures the leave current capitalist economies largely untouched but reorient them to work within or solve environmental problems. Economic growth is not questioned and sustainability challenges might even be seen as a growth opportunities ("green growth",  emissions markets, Green New Deal...).
+-   Sustainability as Modernization: Based on weak sustainability concepts, sustainability as modernization describes futures the leave current capitalist economies largely untouched but reorient them to work within or solve environmental problems. Economic growth is not questioned and sustainability challenges might even be seen as a growth opportunities ("green growth", emissions markets, Green New Deal...).
 
-- Sustainability as Transformation: Imaginaries based on transformation ideas reject the weak sustainability foundations of modernization and call for more fundamental changes in society in a "great transformation" sense. Their proponents draw up visions of a post-growth, solidarity society moving away from limitless consumption and capitalist extraction [@Wiedmann2020-rk is a recent read].
+-   Sustainability as Transformation: Imaginaries based on transformation ideas reject the weak sustainability foundations of modernization and call for more fundamental changes in society in a "great transformation" sense. Their proponents draw up visions of a post-growth, solidarity society moving away from limitless consumption and capitalist extraction [@Wiedmann2020-rk is a recent read].
 
-- Sustainability as Control: This imaginary is driven by ideas of resilience, inevitability and emergency. Here, powerful entities (eg. autocratic states) "solve" sustainability crises by leveraging emergency [see @Patterson2021-cl for a nuanced discussion of emergency framings around climate change] powers to mitigate consequences of crises in possibly undemocratic ways.
+-   Sustainability as Control: This imaginary is driven by ideas of resilience, inevitability and emergency. Here, powerful entities (eg. autocratic states) "solve" sustainability crises by leveraging emergency [see @Patterson2021-cl for a nuanced discussion of emergency framings around climate change] powers to mitigate consequences of crises in possibly undemocratic ways.
 
 ### Modern developments
 
-Among more recent higher-level concepts shaping thinking around sustainability, three interconnected connected developments stand out:
+Among more recent higher-level concepts shaping thinking around sustainability, three interconnected developments stand out:
 
-- The concept of *planetary boundaries* [@Rockstrom2009-by; @Steffen2015-pj] has been hugely influential in providing a high-level heuristic to diagnose the state of the earth system with regard to being a "safe operating space for humanity".
+-   The concept of *planetary boundaries* [@Rockstrom2009-by; @Steffen2015-pj] has been hugely influential in providing a high-level heuristic to diagnose the state of the earth system with regard to being a "safe operating space for humanity".
 
-- The concept of the *Anthropocene* [@Lewis2015-lx], positing a new geological epoch defined by the impact of humans on the earth has both captured and influenced thinking around sustainability, from critiques of how useful the term "environmental" still is [@Biermann2021-px] to fundamental reconsiderations of nature-culture dichotomies [@Buscher2020-ry].
+-   The concept of the *Anthropocene* [@Lewis2015-lx], positing a new geological epoch defined by the impact of humans on the earth has both captured and influenced thinking around sustainability, from critiques of how useful the term "environmental" still is [@Biermann2021-px] to fundamental reconsiderations of nature-culture dichotomies [@Buscher2020-ry].
 
-- The concept of the *doughnut economy* [@Raworth2017-mk] has been one of the more elegant ways of designing a narrative combining the planetary boundaries concept as a upper limit for human activity on the planet with a lower limit for human prosperity that should be met for all. The space inbetween is the "safe and just space for humanity".
+-   The concept of the *doughnut economy* [@Raworth2017-mk] has been one of the more elegant ways of designing a narrative combining the planetary boundaries concept as a upper limit for human activity on the planet with a lower limit for human prosperity that should be met for all. The space inbetween is the "safe and just space for humanity".
 
+There is obviously much much more that has happend recently in sustainability science [@Clark2020-mi]. One more mention should probably be work on shallow and deep leverage points and their application to sustainability transformation [@Fischer2019-oh], which are a heuristic to think about how to intervene in complex systems.
+
+::: column-margin
+![Regarding the "There is obviously much much more to sustainability science" - I could not resist. [Source](https://twitter.com/mario_angst_sci/status/1388213793021480967)](images/sustainability_science_papers.png)
+:::
 
 ## Sustainability transformations
 
@@ -111,7 +104,6 @@ Another literature coming from policy studies and social-ecological systems pers
 
 ### The UN 2030 Agenda
 
-The UN 2030 Agenda [@United_Nations_General_Assembly2015-yn] and its associated Sustainable Development Goals (SDGs) have been the outcomes of a high-level political process that has developed normative power in defining areas for action on sustainability since its inception in 2015. In their conceptual foundations, the SDGs are probably closer to the "three pillars" model of sustainability in raising more questions, the closer one looks into them. Further, the goals are very broad global goals and their actual political impact beyond agenda setting (which should not be underestimated however!) appears to have been limited until now [@Biermann2022-jc]. 
+The UN 2030 Agenda [@United_Nations_General_Assembly2015-yn] and its associated Sustainable Development Goals (SDGs) have been the outcomes of a high-level political process that has developed normative power in defining areas for action on sustainability since its inception in 2015. In their conceptual foundations, the SDGs are probably closer to the "three pillars" model of sustainability in raising more questions, the closer one looks into them. Further, the goals are very broad global goals and their actual political impact beyond agenda setting (which should not be underestimated however!) appears to have been limited until now [@Biermann2022-jc].
 
 Still, research on the SDGs occupies a lot of space in the sustainability science literature at the moment, for example with interesting work on indicators for SDGs [@Koch2023-rw], local adaptation of SDGs and their implementation [@Patel2017-wb] or SDG interactions [@Bennich2020-qj].
-

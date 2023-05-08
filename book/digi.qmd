@@ -1,14 +1,19 @@
 # Digitalization {#sec-digi}
 
-## Digitization
-
-
+🚧 This section is quite minimal at the moment 🚧
 
 ## Digitalization
 
+For our purposes, we will define digitalization in relation to the *socio-technical consequences of digitization*, the conversion of analogue streams of information into digital form [@Brennen2016-ar; @Bockshecker2018-xc].
 
-## Digitalization discourses
+## The discoursive construction of digitalization
 
+If sustainability transformations are socio-technical change process oriented toward the normative concept of sustainability - are there normative goals that digitalization is oriented toward?
 
+This is an absolutely crucial question as *what and how to digitize* is always a decision and not an inevitability. As is the regulation or non-regulation of the socio-technical consequences.
 
-## Digitalization imaginaries
+As such, the most important thing to note here is that the direction of digitalization but depends on its discursive construction [@Marenco2021-dh]. Current research on the discursive construction of digitalization has mostly found that it is framed in terms of technological inevitability [@Henriksson2019-bt; @Hallin2022-aj].
+
+::: {.column-margin}
+This is strikingly evident in all sorts of "smart" approaches to doing things - who could be against something turned into its smart version, right?
+:::
