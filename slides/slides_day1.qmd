@@ -17,18 +17,17 @@ title-slide-attributes:
 
 ## Resources
 
-Materials and slides are accessible at https://github.com/marioangst/susdigi_course
+Materials and slides are accessible at <https://github.com/marioangst/susdigi_course>
 
-Online booklet with minimal content summaries/ further reading:
+Online booklet with minimal content summaries/ further reading and complete sources:
 
-https://marioangst.github.io/susdigi_course/
+<https://marioangst.github.io/susdigi_course/>
 
 ## Lecturer
 
-Mario Angst 
-PhD in Political Science
+Mario Angst
 
-Past: 🌊,🌲,🌾,⚡,(🛢) governance 
+Past: 🌊,🌲,🌾,⚡,(🛢) governance
 
 Now: 🏙️ and 🖥️+🍀
 
@@ -36,77 +35,232 @@ Computational Social Science (mostly network analysis, NLP, Bayesian modeling)
 
 Biased toward strong sustainability, bikes and local solutions.
 
-
 ## Day 1 - Learning goals
 
 -   The students can differentiate between sustainability as a normative concept and socio-technical sustainability transformations.
 
--   The students are aware of the three core sustainability strategies.
+-   The students are aware of the three core sustainability strategies
 
--   The students are aware of existing frameworks to relate digitalization to sustainability transformations.
-
-- The students are aware of current research on (non-)alignment of digitalization with regard to sustainability goals.
-
--   The lecturer communicates course content clearly without going off on too many tangents.
+-   The students are able to access current sustainability science literature.
 
 ## Day 1 - Program
 
 -   Introduction to the course
--   Group exercise
--   Input Sustainability
+-   Input sustainability
 -   Break
--   Input sustainable digitalization
--   Input non-alignment sus+digi
+-   Input digitalization
 -   Deep dive into sufficiency: Guest speaker Leonard Creutzburg
 -   Sustainability in research and teaching at UZH: Guest speaker Jeannette Behringer
 
 ## Day 2 - Program
 
--   Solutions to non-alignment
+-   Input sustainable digitalization
 -   How does my research relate?
 -   Build your own sus+digi project
 
 # Sustainability as a normative concept
 
-## Group exercise
+## Sustainability
 
-We'll form groups of four by counting to $\frac{n}{4}$ in the group.
+We'll count to two.
 
-Sit together with people sharing your number.
+If you are one: Introduce yourself to your neighbour to the right. Discuss (in pairs) for 7 minutes:
 
 *What does sustainability mean to you?*
 
-You do *not* need to prepare or share anything after.
+Be prepared to introduce your neighbour and what sustainability means to them afterwards.
 
 ## A key differentiation
 
--   The *discoursively contested* normative concept. Or concept*s* with their associated social configuration of actors involved in discourse.
-    -   Strong vs. weak sustainability
--   The socio-technical transformation oriented toward the concept.
+-   Sustainability as a normative concept, including its discoursive contestation and imaginaries
+-   Sustainability transformations as socio-technical change processes oriented toward sustainability
 
 ## The Brundtland definition
 
-“Environment” is where we all live; and “development” is what we all do in attempting to improve
-our lot within that abode. The two are inseparable.... Humanity has the ability to make development
-sustainable: to ensure that it meets the needs of the present without compromising the ability of future
-generations to meet their own needs. (3, pp. ix, 8)
+Worth studying for a bit.
+
+Take five minutes to read through this. This is *the text ©️*
+
+Does anything surprise you? Discuss with your neighbor to the left (for ones) and be prepared to share your thoughts.
+
+## The Brundtland definition
+
+intra- and intergenerational justice is front and center
+
+but there were/ are many other sustainability definitions
+
+## Making sense of sustainability definitions {.smaller}
+
+It all comes down to substitution of natural capital for future generations
+
+-   weak sustainability: substitution is ok given function is retained and utility non-declining
+
+-   strong sustainability: natural capital needs to be at least maintained
+
+    -   multi-functionality of biosphere
+    -   option space of future generations
+    -   precautionary principle
+
+🤯 Beware of "nature" 🍃
+
+## What about the three pillars?
+
+We don't talk about the three pillars
+
+## Three core strategies
+
+So sustainability is an interconnected problem of distributive justice and resource use. Behold the three strategies everyone should be aware of in order to reduce resource use:
+
+-   efficiency
+-   sufficiency
+-   consistency
+
+## Strategy game
+
+We'll form four groups.
+
+We will take ten minutes to gather as many examples of:
+
+-   behaviours
+-   policies
+-   business models
+-   research projects
+
+you can associate with one of the four strategies.
+
+## Decoupling
+
+... (economic) activity from resource use
+
+-   single decoupling: green growth narrative, often efficiency only
+-   double decoupling: efficiency + sufficiency
+
+## Sustainability imaginaries
+
+Things become more sociological.
+
+Futures of sustainability. "In a certain sense, a sustainable world is a fiction" (Martens 2006, 40):
+
+-   Modernization
+-   Transformation
+-   Control
+
+## Modernization
+
+weak sustainability, "green growth"
+
+![https://radicaloceanfutures.earth/](img/fishinc_simonstalenhag.png)
+
+## Transformation
+
+strong sustainability, post-growth, solidarity economy
+
+![https://radicaloceanfutures.earth/](img/backfromthebrink_simonstalenhag.png)
+
+## Control
+
+resilience, inevitability and emergency
+
+powerful entities solve crises with emergency powers
+
+![https://radicaloceanfutures.earth/](img/Rime_Simonstalenhag_sunset.png)
+
+## What is your imaginary?
+
+Take a walk with your neighbour to the right (for ones). Be back in twelve minutes. Prepare to share your thoughts with the group.
+
+![https://radicaloceanfutures.earth/](img/risingtide.png)
 
 ## Modern sustainability science concepts
 
 -   Planetary boundaries
+
 -   Doughnut economics and post-growth
--   The Anthropocene and social-ecological systems
--   The UN Agenda 2030
+
+-   The Anthropocene
+
+-   honorable mention: leverage points
+
+## Planetary boundaries {.smaller}
+
+![Azote for Stockholm Resilience Centre, based on analysis in Persson et al 2022 and Steffen et al 2015](img/PB_2022%20Planetary%20Boundaries%20Novel%20Entity.png)
+
+## Doughnut economics
+
+![https://www.kateraworth.com/doughnut/](img/doughnut.png)
+
+## The Anthropocene
+
+... questions everything.
+
+![](img/The_Earth_seen_from_Apollo_17.jpg)
+
+nature-culture dichotomies
+
+is there an "environment"?
+
+
+
+## Leverage points
+
+How to intervene in complex systems?
+
+![Fischer and Riechers, p. 117](img/leverage_points.png)
 
 # Sustainability transformations
 
-## Transformation
+Understanding the socio-technical change processes.
 
--   In the Polanyi sense.
--   Socio-technical
+## Sustainability transitions
 
-## Twin decoupling
+How do radical changes happen in specific, large socio-technical systems?
 
-## Many transformations
+## Sustainability transitions
 
--   
+![EEA 2019, based on Geels (2006)](img/transitions.png)
+
+## Sustainability governance
+
+-   Social-ecological systems perspective
+
+-   Institutional navigation
+
+## SES
+
+![Ostrom 2014](img/ses.png)
+
+## Institutional navigation
+
+![Lubell and Morrison 2021, p. 665](img/inst_nav.png)
+
+## The UN 2030 Agenda
+
+-   Outcome of a political process
+-   Anyone remember the Millenium Development Goals? The Agenda 21?
+-   Conceptually weak, normatively... powerful? Evidence is mixed.
+
+## SDG research
+
+-   Indicators
+-   Local adaptation
+-   SDG interactions
+
+# Break
+
+15 minutes
+
+# Digitalization
+
+For our purposes: Socio-technical consequences of digitization, the conversion of analogue streams of information into digital form
+
+## The discoursive construction of digitalization
+
+Argument: What and how to digitize is always a decision, as well as regulation and non-regulation of its socio-technical consequences.
+
+Why do we digitize? Let's discuss.
+
+## For next week
+
+Pick two of the reading materials referenced at any point in the online booklet accompanying the course at <https://marioangst.github.io/susdigi_course/>.
+
+Read them and be prepare to share your thoughts on it.
