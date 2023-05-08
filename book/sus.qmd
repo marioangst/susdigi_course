@@ -39,7 +39,7 @@ extended to equity within each generation*.
 
 The Brundtland definition is still relevant today and often referenced. Often, it is reduced to the first line in point 1. above. Seeing the definition in context is helpful to recognize that *intra- and intergenerational justice* (especially distributive justice) has always been at the core of sustainability as a normative concept.
 
-### Strong and weak sustainability
+### Strong and weak sustainability {#sec-weakstrongsus}
 
 Before and after the Brundtlandt definition, many different variations on sustainability definitions emerged. A key, helpful way to make sense of how people talk about and define sustainability is the differentiation between strong and weak sustainability [@Ott2011-gl]. On important difference between strong and weak sustainability concepts relates to the possibility of substitution:
 
@@ -59,7 +59,7 @@ This notion of substitution obviously is very relevant when considering sustaina
 It also needs to be noted here that notions of substitution rest on very specific ways of thinking about relationships between nature and humans, which are not by any means shared across knowledge systems across the world.
 :::
 
-### Three core strategies: Efficiency, sufficiency, consistency
+### Three core strategies: Efficiency, sufficiency, consistency {#sec-corestrategies}
 
 Sustainability is an interconnected problem of distributive justice and resource use. One of the key developments of the sustainability science literature was the differentiation of three essential strategies that are possible to reduce resource use. In a simplified form:
 
@@ -111,7 +111,7 @@ Another literature coming from policy studies and social-ecological systems pers
 
 ### The UN 2030 Agenda
 
-The UN 2030 Agenda [@United_Nations_General_Assembly2015-yn] and its associated Sustainable Development Goals (SDGs) have been the outcomes of a high-level political process that has developed normative power in defining areas for action on sustainability since its inception in 2015. In their conceptual foundations, the SDGs are probably closer to the "three pillars" model of sustainability in raising more questions, the closer on looks into them. Further, the goals are very broad global goals and their actual political impact beyond agenda setting (which should not be underestimated however) appears to have been limited until now [@Biermann2022-jc]. 
+The UN 2030 Agenda [@United_Nations_General_Assembly2015-yn] and its associated Sustainable Development Goals (SDGs) have been the outcomes of a high-level political process that has developed normative power in defining areas for action on sustainability since its inception in 2015. In their conceptual foundations, the SDGs are probably closer to the "three pillars" model of sustainability in raising more questions, the closer one looks into them. Further, the goals are very broad global goals and their actual political impact beyond agenda setting (which should not be underestimated however!) appears to have been limited until now [@Biermann2022-jc]. 
 
-Still, research on the SDGs occupies a lot of space in the sustainability science literature at the moment, for example with work on indicators for SDGs [@Koch2023-rw], local adaptation of SDGs and their implementation [@Patel2017-wb] or SDG interactions [@Bennich2020-qj].
+Still, research on the SDGs occupies a lot of space in the sustainability science literature at the moment, for example with interesting work on indicators for SDGs [@Koch2023-rw], local adaptation of SDGs and their implementation [@Patel2017-wb] or SDG interactions [@Bennich2020-qj].
 

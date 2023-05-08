@@ -10,4 +10,7 @@ In terms of knowledge, the goal of the course is:
 
 -   to introduce enough core sustainability science concepts to make a discussion of sustainable digitalization possible in [Chapter -@sec-sus].
 -   to establish a common understanding of digitalization as a socio-technical process in [Chapter -@sec-digi].
--   to introduce current research on sustainable digitalization, including problems of non-alignment of digitalization processes with sustainability goals and potential solutions [Chapter -@sec-susdigi].
+-   to introduce current research on sustainable digitalization in [Chapter -@sec-susdigi], including 
+  - useful concepts to categorize the interplay between digitalization and sustainability transformations
+  - problems of non-alignment of digitalization processes with sustainability goals
+  - potential solutions
