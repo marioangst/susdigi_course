@@ -84,7 +84,7 @@ Among more recent higher-level concepts shaping thinking around sustainability, 
 
 -   The concept of the *doughnut economy* [@Raworth2017-mk] has been one of the more elegant ways of designing a narrative combining the planetary boundaries concept as a upper limit for human activity on the planet with a lower limit for human prosperity that should be met for all. The space inbetween is the "safe and just space for humanity".
 
-There is obviously much much more that has happend recently in sustainability science [@Clark2020-mi]. One more mention should probably be work on shallow and deep leverage points and their application to sustainability transformation [@Fischer2019-oh], which are a heuristic to think about how to intervene in complex systems.
+There is obviously much much more that has happened recently in sustainability science [@Clark2020-mi]. One more mention should probably be work on shallow and deep leverage points and their application to sustainability transformation [@Fischer2019-oh], which are a heuristic to think about how to intervene in complex systems.
 
 ::: column-margin
 ![Regarding the "There is obviously much much more to sustainability science" - I could not resist. [Source](https://twitter.com/mario_angst_sci/status/1388213793021480967)](images/sustainability_science_papers.png)
@@ -96,7 +96,7 @@ Sustainability transformations are the actual socio-technical change processes h
 
 ### Sustainability transitions
 
-The sustainability transitions literature [@Kohler2019-do] is a lively, interdisciplinary field of research which is concerned with how radical changes toward sustainability come about (and how they can be facilitated in more transdisciplinary modes of resarch), mostly in specific, meso-level, socio-technical systems.
+The sustainability transitions literature is a lively, interdisciplinary field of research which is concerned with how radical changes toward sustainability come about in sectors that fulfill key societal functions (like energy, transport, healthcare, water/sanitation, etc.) and how they can be actively navigated by stakeholders [@Truffer2022-bx; @Loorbach2017-uq].
 
 ### Sustainability governance
 
