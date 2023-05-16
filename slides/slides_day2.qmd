@@ -13,16 +13,179 @@ title-slide-attributes:
   data-background-size: 80%
 ---
 
+# Day 2 Program
+
 ## Day 2 - Learning goals
 
-- The students are aware of current research on non-alignment of digitalization with regard to sustainability goals.
-- The students are aware of proposed solutions.
-- The students can relate their own research to questions of sustainable digitalization.
+- The participants are aware of existing frameworks to relate digitalization to sustainability transformations.
+- The participants are aware of current research on (non-)alignment of digitalization with regard to sustainability goals.
+- The participants can relate their own research to questions of sustainable digitalization.
 
 - The lecturer does support creative group work
 
 ## Day 2 - Program
 
-- Input: The case for a digital reset
+- Day 1 recap: Share your readings
+- Input: Sustainable digitalization
 - Reflection: Sustainability in my own research
-- Creative group work: Build your own susdigi research project
+- Build your own susdigi research project
+
+## Your readings
+
+```{r warning=FALSE}
+library(ggraph)
+library(igraph)
+
+phd_article_el <- readr::read_csv("data/readings_log.csv")
+
+g <- igraph::graph_from_edgelist(as.matrix(phd_article_el))
+
+V(g)$mode <- ifelse(V(g)$name %in% phd_article_el$phd, "phd","article")
+
+g |> 
+  ggraph(layout = "nicely") + 
+  geom_edge_link0(edge_colour = "dark gray") +
+  geom_node_point(shape = 21, alpha = 0.5, size = 10, aes(fill = mode)) +
+  geom_node_text(aes(label = name, fill = mode), alpha = 0.5,size = 3, repel = TRUE) +
+  theme_graph() +
+  theme(legend.position = "none") +
+  coord_cartesian(clip = "off")
+
+```
+## (slightly very random) clusters
+
+Pre-assigned groups:
+
+- Policy wonks: Federica, Donatella, Matteo
+- Deep thinkers: Isabelle,  Lucien, Raphaela
+- Post-growthers: Kilian, Anais, Alexandra
+- Smart economyists: Basak, Katia, Tessa
+
+
+## Share your readings
+
+In the groups:
+
+- Sit down silently for 5 minutes.
+- Write down three sentences summarizing the articles you read.
+- Read them to each other.
+- Discuss: Which conceptual elements we discussed on day 1 did you encounter?
+
+# Day 1 leftovers
+
+## Digitalization and its discoursive construction
+
+Defining Digitalization
+
+For our purposes: Socio-technical consequences of digitization, the conversion of analogue streams of information into digital form.
+
+Argument for the time being: What and how to digitize always involves decisions - as well as regulation and non-regulation of its socio-technical consequences.
+
+## The UN 2030 Agenda
+
+-   Outcome of a political process
+-   Anyone remember the Millenium Development Goals? The Agenda 21?
+-   Conceptually weak, normatively... powerful? Evidence is mixed.
+
+# Sustainable digitalization
+
+## Starting point: The LES framework
+
+- Hilty and Aebischer (2015)
+- Originally conceived to look at "impacts of ICT infrastructure" on sustainability
+- focus on resource use impacts
+- Advantages:
+  - relatively empirical (eg. no a priori stance on substitution)
+  - conceptually elegant in focus on resource theory
+  - but expandable (as we do here to digitalization more generally)
+  
+## The LES framework
+
+- *L*ife cycle impacts
+- *E*nabling impacts
+- *S*tructural impacts
+
+## Life cycle impacts
+
+Actual material impacts
+
+- Production and disposal
+- Operating the infrastructure
+
+Data center example: Energy, land...
+
+## Enabling impact
+
+- New actions that are enabled by digitalization (or prevented)
+
+Three types of enabling impacts regarding resources:
+
+- Process optimization: Immaterial replaces material resource (information reducing travel impacts)
+- Media substitution: material replaces material resource (e-book, physical books)
+- Externalization of control: immaterial replaces immaterial (eg. centralizing a previous process optimization step)
+
+## Structural impact
+
+Persistent macro-level changes in:
+
+- economic structure
+- societal institutions
+
+## LES x core strategies bingo
+
+
+Categorizing research and interventions for sustainable digitalization
+
+
+|             | Life-cycle | Enabling | Structural |
+|-------------|------------|----------|------------|
+| Sufficiency |            |          |            |
+| Efficiency  |            |          |            |
+| Consistency |            |          |            |
+
+## Sustainable digitalization imaginaries
+
+- Remember?
+  - Modernization: weak sustainability, green growth
+  - Transformation: strong sustainability, solidarity economy, post-growth
+  - Control: emergency, inevitability, powerful entities "solve"
+  
+## Exercise
+
+We will form three groups (one per imaginary).
+
+We will go outside.
+
+Imagine your idealtypical scenario has played out.
+
+How has this place changed? 
+What role did digitalization play for these changes to take place?
+
+## Non-alignment - a few examples
+
+- Life cycle impacts: Massive absolute growth dwarfs consistent efficiency gains in IcT infrastructure and devices
+- Enabling: Efficiency gains have been underwhelming (transportation, IoT, logistics..)
+- Structural: 
+  - Digital economy - extractive business model with large social costs, monopolized infrastructure
+  - Unhinged narrative power of big tech
+
+# Sustainable Digitalization in my own research
+
+# Build your own susdigi research project
+
+Form teams with:
+
+- A policy wonk
+- A deep thinker
+- A post-growthist
+- A smart economyist
+
+# Build your own susdigi research project
+
+Take 30 minutes. Develop an *empirical* research project skeleton with:
+
+- A research question
+- A way to answer the research question. Sketch:
+  - What data would you use?
+  - What methods to analyze the data would you use?
+
