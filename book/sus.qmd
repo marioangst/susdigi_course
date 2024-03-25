@@ -87,7 +87,7 @@ Among more recent higher-level concepts shaping thinking around sustainability, 
 There is obviously much much more that has happened recently in sustainability science [@Clark2020-mi]. One more mention should probably be work on shallow and deep leverage points and their application to sustainability transformation [@Fischer2019-oh], which are a heuristic to think about how to intervene in complex systems.
 
 ::: column-margin
-![Regarding the "There is obviously much much more to sustainability science" - I could not resist. [Source](https://twitter.com/mario_angst_sci/status/1388213793021480967)](images/sustainability_science_papers.png)
+![Regarding the "There is obviously much much more to sustainability science" - I could not resist. [Source](https://zenodo.org/doi/10.5281/zenodo.10868739)](images/sustainability_science_papers.png)
 :::
 
 ## Sustainability transformations

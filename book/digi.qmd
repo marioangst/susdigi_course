@@ -6,6 +6,10 @@
 
 For our purposes, we will define digitalization in relation to the *socio-technical consequences of digitization*, the conversion of analogue streams of information into digital form [@Brennen2016-ar; @Bockshecker2018-xc].
 
+::: column-margin
+We will skirt the discussion on what a "digital" form of information actually means. It's not as easy as it seems and things get very deep, very fast. See for example this working paper for some thought-provoking stuff, including a convincing argument for why an alphabet itself, without considering how it is consumed, is already digital: @Haigh2023-xd.
+:::
+
 ## The discoursive construction of digitalization
 
 If sustainability transformations are socio-technical change process oriented toward the normative concept of sustainability - are there normative goals that digitalization is oriented toward?

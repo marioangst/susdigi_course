@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.4.322">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -68,6 +68,11 @@ div.csl-indent {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -77,7 +82,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -88,11 +94,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sus.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,66 +111,72 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sustainable Digitalization - A primer</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Content</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Content</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sus.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></a>
+  <a href="./sus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./digi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Digitalization</span></a>
+  <a href="./digi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Digitalization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./susdigi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></a>
+  <a href="./susdigi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sustainability-as-a-normative-concept" id="toc-sustainability-as-a-normative-concept" class="nav-link active" data-scroll-target="#sustainability-as-a-normative-concept"><span class="toc-section-number">1.1</span>  Sustainability as a normative concept</a>
+  <li><a href="#sustainability-as-a-normative-concept" id="toc-sustainability-as-a-normative-concept" class="nav-link active" data-scroll-target="#sustainability-as-a-normative-concept"><span class="header-section-number">1.1</span> Sustainability as a normative concept</a>
   <ul class="collapse">
-  <li><a href="#the-brundtland-definition" id="toc-the-brundtland-definition" class="nav-link" data-scroll-target="#the-brundtland-definition"><span class="toc-section-number">1.1.1</span>  The Brundtland definition</a></li>
-  <li><a href="#sec-weakstrongsus" id="toc-sec-weakstrongsus" class="nav-link" data-scroll-target="#sec-weakstrongsus"><span class="toc-section-number">1.1.2</span>  Strong and weak sustainability</a></li>
-  <li><a href="#sec-corestrategies" id="toc-sec-corestrategies" class="nav-link" data-scroll-target="#sec-corestrategies"><span class="toc-section-number">1.1.3</span>  Three core strategies: Efficiency, sufficiency, consistency</a></li>
-  <li><a href="#sec-susimaginaries" id="toc-sec-susimaginaries" class="nav-link" data-scroll-target="#sec-susimaginaries"><span class="toc-section-number">1.1.4</span>  Sustainability imaginaries</a></li>
-  <li><a href="#modern-developments" id="toc-modern-developments" class="nav-link" data-scroll-target="#modern-developments"><span class="toc-section-number">1.1.5</span>  Modern developments</a></li>
+  <li><a href="#the-brundtland-definition" id="toc-the-brundtland-definition" class="nav-link" data-scroll-target="#the-brundtland-definition"><span class="header-section-number">1.1.1</span> The Brundtland definition</a></li>
+  <li><a href="#sec-weakstrongsus" id="toc-sec-weakstrongsus" class="nav-link" data-scroll-target="#sec-weakstrongsus"><span class="header-section-number">1.1.2</span> Strong and weak sustainability</a></li>
+  <li><a href="#sec-corestrategies" id="toc-sec-corestrategies" class="nav-link" data-scroll-target="#sec-corestrategies"><span class="header-section-number">1.1.3</span> Three core strategies: Efficiency, sufficiency, consistency</a></li>
+  <li><a href="#sec-susimaginaries" id="toc-sec-susimaginaries" class="nav-link" data-scroll-target="#sec-susimaginaries"><span class="header-section-number">1.1.4</span> Sustainability imaginaries</a></li>
+  <li><a href="#modern-developments" id="toc-modern-developments" class="nav-link" data-scroll-target="#modern-developments"><span class="header-section-number">1.1.5</span> Modern developments</a></li>
   </ul></li>
-  <li><a href="#sustainability-transformations" id="toc-sustainability-transformations" class="nav-link" data-scroll-target="#sustainability-transformations"><span class="toc-section-number">1.2</span>  Sustainability transformations</a>
+  <li><a href="#sustainability-transformations" id="toc-sustainability-transformations" class="nav-link" data-scroll-target="#sustainability-transformations"><span class="header-section-number">1.2</span> Sustainability transformations</a>
   <ul class="collapse">
-  <li><a href="#sustainability-transitions" id="toc-sustainability-transitions" class="nav-link" data-scroll-target="#sustainability-transitions"><span class="toc-section-number">1.2.1</span>  Sustainability transitions</a></li>
-  <li><a href="#sustainability-governance" id="toc-sustainability-governance" class="nav-link" data-scroll-target="#sustainability-governance"><span class="toc-section-number">1.2.2</span>  Sustainability governance</a></li>
-  <li><a href="#the-un-2030-agenda" id="toc-the-un-2030-agenda" class="nav-link" data-scroll-target="#the-un-2030-agenda"><span class="toc-section-number">1.2.3</span>  The UN 2030 Agenda</a></li>
+  <li><a href="#sustainability-transitions" id="toc-sustainability-transitions" class="nav-link" data-scroll-target="#sustainability-transitions"><span class="header-section-number">1.2.1</span> Sustainability transitions</a></li>
+  <li><a href="#sustainability-governance" id="toc-sustainability-governance" class="nav-link" data-scroll-target="#sustainability-governance"><span class="header-section-number">1.2.2</span> Sustainability governance</a></li>
+  <li><a href="#the-un-2030-agenda" id="toc-the-un-2030-agenda" class="nav-link" data-scroll-target="#the-un-2030-agenda"><span class="header-section-number">1.2.3</span> The UN 2030 Agenda</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -169,7 +186,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-sus" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></span></h1>
+<h1 class="title"><span id="sec-sus" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></span></h1>
 </div>
 
 
@@ -181,6 +198,7 @@ div.csl-indent {
     
   </div>
   
+
 
 </header>
 
@@ -269,7 +287,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/sustainability_science_papers.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Regarding the “There is obviously much much more to sustainability science” - I could not resist. <a href="https://twitter.com/mario_angst_sci/status/1388213793021480967">Source</a></figcaption><p></p>
+<figcaption class="figure-caption">Regarding the “There is obviously much much more to sustainability science” - I could not resist. <a href="https://zenodo.org/doi/10.5281/zenodo.10868739">Source</a></figcaption>
 </figure>
 </div>
 </div></div></section>
@@ -291,89 +309,89 @@ div.csl-indent {
 <p>Still, research on the SDGs occupies a lot of space in the sustainability science literature at the moment, for example with interesting work on indicators for SDGs <span class="citation" data-cites="Koch2023-rw">(<a href="references.html#ref-Koch2023-rw" role="doc-biblioref">Koch, Beyer, and Chen 2023</a>)</span>, local adaptation of SDGs and their implementation <span class="citation" data-cites="Patel2017-wb">(<a href="references.html#ref-Patel2017-wb" role="doc-biblioref">Patel et al. 2017</a>)</span> or SDG interactions <span class="citation" data-cites="Bennich2020-qj">(<a href="references.html#ref-Bennich2020-qj" role="doc-biblioref">Bennich, Weitz, and Carlsen 2020</a>)</span>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Adloff2019-my" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Adloff2019-my" class="csl-entry" role="listitem">
 Adloff, Frank, and Sighard Neckel. 2019. <span>“Futures of Sustainability as Modernization, Transformation, and Control: A Conceptual Framework.”</span> <em>Sustainability Science</em> 14 (4): 1015–25. <a href="https://doi.org/10.1007/s11625-019-00671-2">https://doi.org/10.1007/s11625-019-00671-2</a>.
 </div>
-<div id="ref-Behringer2022-iv" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Behringer2022-iv" class="csl-entry" role="listitem">
 Behringer, Jeannette. 2022. <span>“Effizienz f<span>ü</span>r Nachhaltigkeit – Notwendig, Jedoch Nicht Hinreichend.”</span> <em>Conexus</em>, October, 7–28. <a href="https://doi.org/10.24445/conexus.2022.05.003">https://doi.org/10.24445/conexus.2022.05.003</a>.
 </div>
-<div id="ref-Bennich2020-qj" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bennich2020-qj" class="csl-entry" role="listitem">
 Bennich, Therese, Nina Weitz, and Henrik Carlsen. 2020. <span>“Deciphering the Scientific Literature on <span>SDG</span> Interactions: A Review and Reading Guide.”</span> <em>The Science of the Total Environment</em> 728: 138405. <a href="https://doi.org/10.1016/j.scitotenv.2020.138405">https://doi.org/10.1016/j.scitotenv.2020.138405</a>.
 </div>
-<div id="ref-Biermann2021-px" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Biermann2021-px" class="csl-entry" role="listitem">
 Biermann, Frank. 2021. <span>“The Future of <span>‘Environmental’</span> Policy in the Anthropocene: Time for a Paradigm Shift.”</span> <em>Environmental Politics</em> 30 (1-2): 61–80. <a href="https://doi.org/10.1080/09644016.2020.1846958">https://doi.org/10.1080/09644016.2020.1846958</a>.
 </div>
-<div id="ref-Biermann2022-jc" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Biermann2022-jc" class="csl-entry" role="listitem">
 Biermann, Frank, Thomas Hickmann, Carole-Anne Sénit, Marianne Beisheim, Steven Bernstein, Pamela Chasek, Leonie Grob, et al. 2022. <span>“Scientific Evidence on the Political Impact of the Sustainable Development Goals.”</span> <em>Nature Sustainability</em>, June, 1–6. <a href="https://doi.org/10.1038/s41893-022-00909-5">https://doi.org/10.1038/s41893-022-00909-5</a>.
 </div>
-<div id="ref-Buscher2020-ry" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Buscher2020-ry" class="csl-entry" role="listitem">
 Buscher, Bram, and Robert Fletcher. 2020. <em>The Conservation Revolution: Radical Ideas for Saving Nature Beyond the Anthropocene</em>. Verso Books.
 </div>
-<div id="ref-Clark2020-mi" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Clark2020-mi" class="csl-entry" role="listitem">
 Clark, William C, and Alicia G Harley. 2020. <span>“Sustainability Science: Toward a Synthesis.”</span> <em>Annual Review of Environment and Resources</em> 45 (1): 331–86. <a href="https://doi.org/10.1146/annurev-environ-012420-043621">https://doi.org/10.1146/annurev-environ-012420-043621</a>.
 </div>
-<div id="ref-Fischer2019-oh" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fischer2019-oh" class="csl-entry" role="listitem">
 Fischer, Joern, and Maraja Riechers. 2019. <span>“A Leverage Points Perspective on Sustainability.”</span> <em>People and Nature (Hoboken, N.J.)</em> 1 (1): 115–20. <a href="https://doi.org/10.1002/pan3.13">https://doi.org/10.1002/pan3.13</a>.
 </div>
-<div id="ref-Gopel2016-hg" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gopel2016-hg" class="csl-entry" role="listitem">
 Göpel, Maja. 2016. <span>“How to Work a Great Mindshift for Sustainability Transformations.”</span> In <em>The Great Mindshift: How a New Economic Paradigm and Sustainability Transformations Go Hand in Hand</em>, edited by Maja Göpel, 149–68. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-43766-8\_5">https://doi.org/10.1007/978-3-319-43766-8\_5</a>.
 </div>
-<div id="ref-Koch2023-rw" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Koch2023-rw" class="csl-entry" role="listitem">
 Koch, Florian, Sarah Beyer, and Chih-Yu Chen. 2023. <span>“Monitoring the Sustainable Development Goals in Cities: Potentials and Pitfalls of Using Smart City Data.”</span> <em>GAIA - Ecological Perspectives for Science and Society</em> 32 (1): 47–53. <a href="https://doi.org/10.14512/gaia.32.S1.8">https://doi.org/10.14512/gaia.32.S1.8</a>.
 </div>
-<div id="ref-Lenz2021-rl" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lenz2021-rl" class="csl-entry" role="listitem">
 Lenz, Sarah. 2021. <span>“Is Digitalization a Problem Solver or a Fire Accelerator? Situating Digital Technologies in Sustainability Discourses.”</span> <em>Social Sciences Information. Information Sur Les Sciences Sociales</em> 60 (2): 188–208. <a href="https://doi.org/10.1177/05390184211012179">https://doi.org/10.1177/05390184211012179</a>.
 </div>
-<div id="ref-Lewis2015-lx" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lewis2015-lx" class="csl-entry" role="listitem">
 Lewis, Simon L, and Mark A Maslin. 2015. <span>“Defining the Anthropocene.”</span> <em>Nature</em> 519 (7542): 171–80. <a href="https://doi.org/10.1038/nature14258">https://doi.org/10.1038/nature14258</a>.
 </div>
-<div id="ref-Loorbach2017-uq" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Loorbach2017-uq" class="csl-entry" role="listitem">
 Loorbach, Derk, Niki Frantzeskaki, and Flor Avelino. 2017. <span>“Sustainability Transitions Research: Transforming Science and Practice for Societal Change.”</span> <em>Annual Review of Environment and Resources</em> 42 (1): 599–626. <a href="https://doi.org/10.1146/annurev-environ-102014-021340">https://doi.org/10.1146/annurev-environ-102014-021340</a>.
 </div>
-<div id="ref-Lubell2021-dp" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lubell2021-dp" class="csl-entry" role="listitem">
 Lubell, Mark, and Tiffany H Morrison. 2021. <span>“Institutional Navigation for Polycentric Sustainability Governance.”</span> <em>Nature Sustainability</em> 4 (8): 664–71. <a href="https://doi.org/10.1038/s41893-021-00707-5">https://doi.org/10.1038/s41893-021-00707-5</a>.
 </div>
-<div id="ref-Martens2006-di" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Martens2006-di" class="csl-entry" role="listitem">
 Martens, Pim. 2006. <span>“Sustainability: Science or Fiction?”</span> <em>Sustainability: Science Practice and Policy</em> 2 (1): 36–41. <a href="https://doi.org/10.1080/15487733.2006.11907976">https://doi.org/10.1080/15487733.2006.11907976</a>.
 </div>
-<div id="ref-Ostrom2009-hd" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ostrom2009-hd" class="csl-entry" role="listitem">
 Ostrom, Elinor. 2009. <span>“A General Framework for Analyzing Sustainability of Social-Ecological Systems.”</span> <em>Science</em> 325 (5939): 419–22. <a href="https://doi.org/10.1126/science.1172133">https://doi.org/10.1126/science.1172133</a>.
 </div>
-<div id="ref-Ott2011-gl" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ott2011-gl" class="csl-entry" role="listitem">
 Ott, Konrad, Barbara Muraca, and Christian Baatz. 2011. <span>“Strong Sustainability as a Frame for Sustainability Communication.”</span> In <em>Sustainability Communication: Interdisciplinary Perspectives and Theoretical Foundation</em>, edited by Jasmin Godemann and Gerd Michelsen, 13–25. Dordrecht: Springer Netherlands. <a href="https://doi.org/10.1007/978-94-007-1697-1\_2">https://doi.org/10.1007/978-94-007-1697-1\_2</a>.
 </div>
-<div id="ref-Patel2017-wb" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Patel2017-wb" class="csl-entry" role="listitem">
 Patel, Zarina, Saskia Greyling, David Simon, Helen Arfvidsson, Nishendra Moodley, Natasha Primo, and Carol Wright. 2017. <span>“Local Responses to Global Sustainability Agendas: Learning from Experimenting with the Urban Sustainable Development Goal in Cape Town.”</span> <em>Sustainability Science</em> 12 (5): 785–97. <a href="https://doi.org/10.1007/s11625-017-0500-y">https://doi.org/10.1007/s11625-017-0500-y</a>.
 </div>
-<div id="ref-Patterson2021-cl" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Patterson2021-cl" class="csl-entry" role="listitem">
 Patterson, James, Carina Wyborn, Linda Westman, Marie Claire Brisbois, Manjana Milkoreit, and Dhanasree Jayaram. 2021. <span>“The Political Effects of Emergency Frames in Sustainability.”</span> <em>Nature Sustainability</em>, July. <a href="https://doi.org/10.1038/s41893-021-00749-9">https://doi.org/10.1038/s41893-021-00749-9</a>.
 </div>
-<div id="ref-Purvis2019-ox" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Purvis2019-ox" class="csl-entry" role="listitem">
 Purvis, Ben, Yong Mao, and Darren Robinson. 2019. <span>“Three Pillars of Sustainability: In Search of Conceptual Origins.”</span> <em>Sustainability Science</em> 14 (3): 681–95. <a href="https://doi.org/10.1007/s11625-018-0627-5">https://doi.org/10.1007/s11625-018-0627-5</a>.
 </div>
-<div id="ref-Raworth2017-mk" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Raworth2017-mk" class="csl-entry" role="listitem">
 Raworth, Kate. 2017. <span>“Why It’s Time for Doughnut Economics.”</span> <em>IPPR Progressive Review</em> 24 (3): 216–22. <a href="https://doi.org/10.1111/newe.12058">https://doi.org/10.1111/newe.12058</a>.
 </div>
-<div id="ref-Rockstrom2009-by" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rockstrom2009-by" class="csl-entry" role="listitem">
 Rockström, Johan, Will Steffen, Kevin Noone, Asa Persson, F Stuart Chapin 3rd, Eric F Lambin, Timothy M Lenton, et al. 2009. <span>“A Safe Operating Space for Humanity.”</span> <em>Nature</em> 461 (7263): 472–75. <a href="https://doi.org/10.1038/461472a">https://doi.org/10.1038/461472a</a>.
 </div>
-<div id="ref-Schneidewind2018-aj" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Schneidewind2018-aj" class="csl-entry" role="listitem">
 Schneidewind, Uwe. 2018. <em>Die Gro<span>ß</span>e Transformation: Eine Einf<span>ü</span>hrung in Die Kunst Gesellschaftlichen Wandels</em>. S. Fischer Verlag.
 </div>
-<div id="ref-Steffen2015-pj" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Steffen2015-pj" class="csl-entry" role="listitem">
 Steffen, Will, Katherine Richardson, Johan Rockström, Sarah E Cornell, Ingo Fetzer, Elena M Bennett, Reinette Biggs, et al. 2015. <span>“Planetary Boundaries: Guiding Human Development on a Changing Planet.”</span> <em>Science</em> 347 (6223). <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
 </div>
-<div id="ref-The_World_Commission_on_Environment_and_Development1987-fx" class="csl-entry" role="doc-biblioentry">
+<div id="ref-The_World_Commission_on_Environment_and_Development1987-fx" class="csl-entry" role="listitem">
 The World Commission on Environment and Development. 1987. <em>Our Common Future</em>. Oxford University Press.
 </div>
-<div id="ref-Truffer2022-bx" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Truffer2022-bx" class="csl-entry" role="listitem">
 Truffer, Bernhard, Harald Rohracher, Paula Kivimaa, Rob Raven, Floor Alkemade, Luis Carvalho, and Giuseppe Feola. 2022. <span>“A Perspective on the Future of Sustainability Transitions Research.”</span> <em>Environmental Innovation and Societal Transitions</em> 42 (March): 331–39. <a href="https://doi.org/10.1016/j.eist.2022.01.006">https://doi.org/10.1016/j.eist.2022.01.006</a>.
 </div>
-<div id="ref-United_Nations_General_Assembly2015-yn" class="csl-entry" role="doc-biblioentry">
+<div id="ref-United_Nations_General_Assembly2015-yn" class="csl-entry" role="listitem">
 United Nations General Assembly. 2015. <span>“Transforming Our World: The 2030 Agenda for Sustainable Development.”</span>
 </div>
-<div id="ref-Wiedmann2020-rk" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wiedmann2020-rk" class="csl-entry" role="listitem">
 Wiedmann, Thomas, Manfred Lenzen, Lorenz T Keyßer, and Julia K Steinberger. 2020. <span>“Scientists’ Warning on Affluence.”</span> <em>Nature Communications</em> 11 (1): 3107. <a href="https://doi.org/10.1038/s41467-020-16941-y">https://doi.org/10.1038/s41467-020-16941-y</a>.
 </div>
 </div>
@@ -408,9 +426,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -446,10 +478,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -459,8 +490,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -475,6 +515,195 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        console.log("RESIZE");
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -527,6 +756,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

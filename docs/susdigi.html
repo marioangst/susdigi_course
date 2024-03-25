@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.4.322">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -68,6 +68,11 @@ div.csl-indent {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -77,7 +82,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -88,11 +94,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./susdigi.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,61 +111,67 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sustainable Digitalization - A primer</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Content</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Content</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></a>
+  <a href="./sus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sustainability</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./digi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Digitalization</span></a>
+  <a href="./digi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Digitalization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./susdigi.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></a>
+  <a href="./susdigi.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#starting-point-the-les-framework" id="toc-starting-point-the-les-framework" class="nav-link active" data-scroll-target="#starting-point-the-les-framework"><span class="toc-section-number">3.1</span>  Starting point: The LES framework</a>
+  <li><a href="#starting-point-the-les-framework" id="toc-starting-point-the-les-framework" class="nav-link active" data-scroll-target="#starting-point-the-les-framework"><span class="header-section-number">3.1</span> Starting point: The LES framework</a>
   <ul class="collapse">
-  <li><a href="#combining-the-les-framework-and-core-strategies" id="toc-combining-the-les-framework-and-core-strategies" class="nav-link" data-scroll-target="#combining-the-les-framework-and-core-strategies"><span class="toc-section-number">3.1.1</span>  Combining the LES framework and core strategies</a></li>
-  <li><a href="#going-beyond-resource-use" id="toc-going-beyond-resource-use" class="nav-link" data-scroll-target="#going-beyond-resource-use"><span class="toc-section-number">3.1.2</span>  Going beyond resource use</a></li>
+  <li><a href="#combining-the-les-framework-and-core-strategies" id="toc-combining-the-les-framework-and-core-strategies" class="nav-link" data-scroll-target="#combining-the-les-framework-and-core-strategies"><span class="header-section-number">3.1.1</span> Combining the LES framework and core strategies</a></li>
+  <li><a href="#going-beyond-resource-use" id="toc-going-beyond-resource-use" class="nav-link" data-scroll-target="#going-beyond-resource-use"><span class="header-section-number">3.1.2</span> Going beyond resource use</a></li>
   </ul></li>
-  <li><a href="#sustainable-digitalization-imaginaries" id="toc-sustainable-digitalization-imaginaries" class="nav-link" data-scroll-target="#sustainable-digitalization-imaginaries"><span class="toc-section-number">3.2</span>  Sustainable digitalization imaginaries</a></li>
-  <li><a href="#non-alignment-of-digitalization-with-sustainability-goals" id="toc-non-alignment-of-digitalization-with-sustainability-goals" class="nav-link" data-scroll-target="#non-alignment-of-digitalization-with-sustainability-goals"><span class="toc-section-number">3.3</span>  Non-alignment of digitalization with sustainability goals</a></li>
-  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions"><span class="toc-section-number">3.4</span>  Solutions</a></li>
+  <li><a href="#sustainable-digitalization-imaginaries" id="toc-sustainable-digitalization-imaginaries" class="nav-link" data-scroll-target="#sustainable-digitalization-imaginaries"><span class="header-section-number">3.2</span> Sustainable digitalization imaginaries</a></li>
+  <li><a href="#non-alignment-of-digitalization-with-sustainability-goals" id="toc-non-alignment-of-digitalization-with-sustainability-goals" class="nav-link" data-scroll-target="#non-alignment-of-digitalization-with-sustainability-goals"><span class="header-section-number">3.3</span> Non-alignment of digitalization with sustainability goals</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions"><span class="header-section-number">3.4</span> Solutions</a></li>
   </ul>
 </nav>
     </div>
@@ -163,7 +180,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-susdigi" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></span></h1>
+<h1 class="title"><span id="sec-susdigi" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sustainable Digitalization</span></span></h1>
 </div>
 
 
@@ -176,6 +193,7 @@ div.csl-indent {
   </div>
   
 
+
 </header>
 
 <p>To consider sustainable digitalization, we’ll need to combine the concepts we established around sustainability as a normative concept and digitalization and sustainability transformations as socio-technical change processes. Generally, the problem with sustainable digitalization research is that there is not as much as one could expect <span class="citation" data-cites="Andersen2021-je">(<a href="references.html#ref-Andersen2021-je" role="doc-biblioref">Andersen et al. 2021</a>)</span>.</p>
@@ -184,9 +202,11 @@ div.csl-indent {
 <p>For a very recent overview on sustainable digitalization research with lots of good references for further reading, see this <a href="https://www.ingentaconnect.com/content/oekom/gaia/2023/00000032/a00101s1">2023 special issue in GAIA </a> <span class="citation" data-cites="Barth2023-le">(intro: <a href="references.html#ref-Barth2023-le" role="doc-biblioref">Barth et al. 2023</a>)</span>.</p>
 <p>The Digital Reset report <span class="citation" data-cites="Digitalization_for_Sustainability_D4S2022-ig">(<a href="references.html#ref-Digitalization_for_Sustainability_D4S2022-ig" role="doc-biblioref">Digitalization for Sustainability (D4S) 2022</a>)</span> is a great report more targeted toward policymakers.</p>
 <p><span class="citation" data-cites="Hilty2015-in">Hilty and Aebischer (<a href="references.html#ref-Hilty2015-in" role="doc-biblioref">2015</a>)</span> gives a good overview over a lot of slightly older research that has been carried out on the impact of ICT on sustainability. It also features an interestingly succinct introduction to sustainability.</p>
+<p>Specifically on the materiality of the “cloud”, <span class="citation" data-cites="Monserrate2022-sd">Monserrate (<a href="references.html#ref-Monserrate2022-sd" role="doc-biblioref">2022</a>)</span> is striking reading.</p>
+<p>I should have written more on “Insolvent”, but I still need to finish it. It should be cited here as a nice example of a computer science author engaged deeply with humanities aspects of sustainability: <span class="citation" data-cites="Christoph_Becker_Director_of_the_Digital_Curation_Institute2023-dv">Christoph Becker (Director of the Digital Curation Institute) (<a href="references.html#ref-Christoph_Becker_Director_of_the_Digital_Curation_Institute2023-dv" role="doc-biblioref">2023</a>)</span>.</p>
 </div></div><section id="starting-point-the-les-framework" class="level2 page-columns page-full" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="starting-point-the-les-framework"><span class="header-section-number">3.1</span> Starting point: The LES framework</h2>
-<p><span class="citation" data-cites="Hilty2015-in">Hilty and Aebischer (<a href="references.html#ref-Hilty2015-in" role="doc-biblioref">2015, 20</a>)</span> proposed the Life-cycle, Enabling, Structural (LES) framework as a high-level heuristic to think about the impact of ICT on sustainability in a more structured way. Their model is helpful as a starting point as it is relatively empirical in focusing on impacts on resources use without taking a a priori stance on eg. acceptable forms of substitution <a href="sus.html#sec-weakstrongsus"><span>Section&nbsp;1.1.2</span></a>. It categorizes the impact of ICT on sustainability on three levels.</p>
+<p><span class="citation" data-cites="Hilty2015-in">Hilty and Aebischer (<a href="references.html#ref-Hilty2015-in" role="doc-biblioref">2015, 20</a>)</span> proposed the Life-cycle, Enabling, Structural (LES) framework as a high-level heuristic to think about the impact of ICT on sustainability in a more structured way. Their model is helpful as a starting point as it is relatively empirical in focusing on impacts on resources use without taking a a priori stance on eg. acceptable forms of substitution <a href="sus.html#sec-weakstrongsus" class="quarto-xref"><span>Section&nbsp;1.1.2</span></a>. It categorizes the impact of ICT on sustainability on three levels.</p>
 <ul>
 <li><p><em>Life-cycle</em> impacts refer to the direct material impacts of technology, eg. raw materials used to build hardware or electricity used in running it. These impacts have become more present in societal discourse recently as people have started realizing that something named in a deceptively ephemeral way like “cloud computing” actually relies on physical infrastructure like data centers.</p></li>
 <li><p><em>Enabling</em> impacts refer to <em>actions</em> on the micro level that are made possible by ICT and can be in line or non-aligned with sustainability goals. Staying with data centers, these could be actions like streaming movies or working from home depending on virtual meetings. Three types of enabling impacts are proposed:</p>
@@ -205,12 +225,12 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/les_framework.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">LES model, reproduced from <span class="citation" data-cites="Hilty2015-in">Hilty and Aebischer (<a href="references.html#ref-Hilty2015-in" role="doc-biblioref">2015, 24</a>)</span></figcaption><p></p>
+<figcaption class="figure-caption">LES model, reproduced from <span class="citation" data-cites="Hilty2015-in">Hilty and Aebischer (<a href="references.html#ref-Hilty2015-in" role="doc-biblioref">2015, 24</a>)</span></figcaption>
 </figure>
 </div>
 <section id="combining-the-les-framework-and-core-strategies" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="combining-the-les-framework-and-core-strategies"><span class="header-section-number">3.1.1</span> Combining the LES framework and core strategies</h3>
-<p>Moving in a more normative direction, we can now think more about how the different core sustainability strategies <a href="sus.html#sec-corestrategies">see&nbsp;<span>1.1.3</span></a> can target different areas of the LES framework <span class="citation" data-cites="Santarius2023-cw">(<a href="references.html#ref-Santarius2023-cw" role="doc-biblioref">Santarius and Wagner 2023</a>)</span>.</p>
+<p>Moving in a more normative direction, we can now think more about how the different core sustainability strategies <a href="sus.html#sec-corestrategies" class="quarto-xref">see&nbsp;<span>1.1.3</span></a> can target different areas of the LES framework <span class="citation" data-cites="Santarius2023-cw">(<a href="references.html#ref-Santarius2023-cw" role="doc-biblioref">Santarius and Wagner 2023</a>)</span>.</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -252,7 +272,7 @@ div.csl-indent {
 </section>
 <section id="sustainable-digitalization-imaginaries" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="sustainable-digitalization-imaginaries"><span class="header-section-number">3.2</span> Sustainable digitalization imaginaries</h2>
-<p>By now it comes as no surprise that given sustainability is a discoursively contested normative concept and digitalization is discoursively constructed, sustainable digitalization is the product of both. For example, the sustainability imaginaries we encountered in <a href="sus.html#sec-susimaginaries"><span>Section&nbsp;1.1.4</span></a> can also be explored in terms of their relationship with digitalization <span class="citation" data-cites="Lenz2021-rl">(<a href="references.html#ref-Lenz2021-rl" role="doc-biblioref">Lenz 2021</a>)</span>.</p>
+<p>By now it comes as no surprise that given sustainability is a discoursively contested normative concept and digitalization is discoursively constructed, sustainable digitalization is the product of both. For example, the sustainability imaginaries we encountered in <a href="sus.html#sec-susimaginaries" class="quarto-xref"><span>Section&nbsp;1.1.4</span></a> can also be explored in terms of their relationship with digitalization <span class="citation" data-cites="Lenz2021-rl">(<a href="references.html#ref-Lenz2021-rl" role="doc-biblioref">Lenz 2021</a>)</span>.</p>
 <p>Further, digitalization offers a way to shape sustainability transformations by leveraging powerful discoursive framings from the digitalization realm, which is for example evident in so-called “smart mobility”, which is highly ambiguous in its actual relation so sustainability <span class="citation" data-cites="Wallsten2022-ae">(<a href="references.html#ref-Wallsten2022-ae" role="doc-biblioref">Wallsten, Henriksson, and Isaksson 2022</a>)</span>.</p>
 </section>
 <section id="non-alignment-of-digitalization-with-sustainability-goals" class="level2 page-columns page-full" data-number="3.3">
@@ -272,7 +292,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/d4s_figure.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure from <span class="citation" data-cites="Digitalization_for_Sustainability_D4S2022-ig">Digitalization for Sustainability (D4S) (<a href="references.html#ref-Digitalization_for_Sustainability_D4S2022-ig" role="doc-biblioref">2022, 13</a>)</span></figcaption><p></p>
+<figcaption class="figure-caption">Figure from <span class="citation" data-cites="Digitalization_for_Sustainability_D4S2022-ig">Digitalization for Sustainability (D4S) (<a href="references.html#ref-Digitalization_for_Sustainability_D4S2022-ig" role="doc-biblioref">2022, 13</a>)</span></figcaption>
 </figure>
 </div>
 </section>
@@ -281,41 +301,47 @@ div.csl-indent {
 <p>🚧 TBD 🚧</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Andersen2021-je" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Andersen2021-je" class="csl-entry" role="listitem">
 Andersen, Allan Dahl, Koen Frenken, Victor Galaz, Florian Kern, Laurens Klerkx, Matthijs Mouthaan, Laura Piscicelli, Juliet B Schor, and Taneli Vaskelainen. 2021. <span>“On Digitalization and Sustainability Transitions.”</span> <em>Environmental Innovation and Societal Transitions</em> 41 (December): 96–98. <a href="https://doi.org/10.1016/j.eist.2021.09.013">https://doi.org/10.1016/j.eist.2021.09.013</a>.
 </div>
-<div id="ref-Barth2023-le" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Barth2023-le" class="csl-entry" role="listitem">
 Barth, Matthias, Maike Gossen, Daniel J Lang, and Tilman Santarius. 2023. <span>“Sustainable Digitalization Fostering the Twin Transformation in a Transdisciplinary Way.”</span> <em>GAIA - Ecological Perspectives for Science and Society</em> 32 (1): 6–9. <a href="https://doi.org/10.14512/gaia.32.S1.3">https://doi.org/10.14512/gaia.32.S1.3</a>.
 </div>
-<div id="ref-Buldeo_Rai2023-rk" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Buldeo_Rai2023-rk" class="csl-entry" role="listitem">
 Buldeo Rai, Heleen, Sabrina Touami, and Laetitia Dablanc. 2023. <span>“Not All e-Commerce Emits Equally: Systematic Quantitative Review of Online and Store Purchases’ Carbon Footprint.”</span> <em>Environmental Science &amp; Technology</em> 57 (1): 708–18. <a href="https://doi.org/10.1021/acs.est.2c00299">https://doi.org/10.1021/acs.est.2c00299</a>.
 </div>
-<div id="ref-Digitalization_for_Sustainability_D4S2022-ig" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Christoph_Becker_Director_of_the_Digital_Curation_Institute2023-dv" class="csl-entry" role="listitem">
+Christoph Becker (Director of the Digital Curation Institute). 2023. <em>Insolvent: How to Reorient Computing for Just Sustainability</em>. MIT Press. <a href="https://doi.org/10.7551/mitpress/14668.001.0001">https://doi.org/10.7551/mitpress/14668.001.0001</a>.
+</div>
+<div id="ref-Digitalization_for_Sustainability_D4S2022-ig" class="csl-entry" role="listitem">
 Digitalization for Sustainability (D4S). 2022. <span>“Digital Reset. Redirecting Technologies for the Deep Sustainability Transformation.”</span> Berlin: TU Berlin. https://doi.org/<a href="https://doi.org/10.14279/depositonce-16187.2">https://doi.org/10.14279/depositonce-16187.2</a>.
 </div>
-<div id="ref-Freitag2021-qh" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Freitag2021-qh" class="csl-entry" role="listitem">
 Freitag, Charlotte, Mike Berners-Lee, Kelly Widdicks, Bran Knowles, Gordon S Blair, and Adrian Friday. 2021. <span>“The Real Climate and Transformative Impact of <span>ICT</span>: A Critique of Estimates, Trends, and Regulations.”</span> <em>Patterns (New York, N.Y.)</em> 2 (9): 100340. <a href="https://doi.org/10.1016/j.patter.2021.100340">https://doi.org/10.1016/j.patter.2021.100340</a>.
 </div>
-<div id="ref-Hilty2015-in" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hilty2015-in" class="csl-entry" role="listitem">
 Hilty, Lorenz M, and Bernard Aebischer. 2015. <span>“<span>ICT</span> for Sustainability: An Emerging Research Field.”</span> In <em><span>ICT</span> Innovations for Sustainability</em>, 3–36. Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-09228-7\_1">https://doi.org/10.1007/978-3-319-09228-7\_1</a>.
 </div>
-<div id="ref-Hittinger2019-qj" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hittinger2019-qj" class="csl-entry" role="listitem">
 Hittinger, Eric, and Paulina Jaramillo. 2019. <span>“Internet of Things: Energy Boon or Bane?”</span> <em>Science</em> 364 (6438): 326–28. <a href="https://doi.org/10.1126/science.aau8825">https://doi.org/10.1126/science.aau8825</a>.
 </div>
-<div id="ref-Lenz2021-rl" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lenz2021-rl" class="csl-entry" role="listitem">
 Lenz, Sarah. 2021. <span>“Is Digitalization a Problem Solver or a Fire Accelerator? Situating Digital Technologies in Sustainability Discourses.”</span> <em>Social Sciences Information. Information Sur Les Sciences Sociales</em> 60 (2): 188–208. <a href="https://doi.org/10.1177/05390184211012179">https://doi.org/10.1177/05390184211012179</a>.
 </div>
-<div id="ref-Milakis2017-ac" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Milakis2017-ac" class="csl-entry" role="listitem">
 Milakis, Dimitris, Bart van Arem, and Bert van Wee. 2017. <span>“Policy and Society Related Implications of Automated Driving: A Review of Literature and Directions for Future Research.”</span> <em>Journal of Intelligent Transportation Systems</em> 21 (4): 324–48. <a href="https://doi.org/10.1080/15472450.2017.1291351">https://doi.org/10.1080/15472450.2017.1291351</a>.
 </div>
-<div id="ref-Santarius2023-cw" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Monserrate2022-sd" class="csl-entry" role="listitem">
+Monserrate, Steven Gonzalez. 2022. <span>“The Cloud Is Material: On the Environmental Impacts of Computation and Data Storage.”</span> <em>MIT Case Studies in Social and Ethical Responsibilities of Computing</em>, no. Winter 2022 (January). <a href="https://doi.org/10.21428/2c646de5.031d4553">https://doi.org/10.21428/2c646de5.031d4553</a>.
+</div>
+<div id="ref-Santarius2023-cw" class="csl-entry" role="listitem">
 Santarius, Tilman, and Josephin Wagner. 2023. <span>“Digitalization and Sustainability: A Systematic Literature Analysis of <span>ICT</span> for Sustainability Research.”</span> <em>GAIA - Ecological Perspectives for Science and Society</em> 32 (1): 21–32. <a href="https://doi.org/10.14512/gaia.32.S1.5">https://doi.org/10.14512/gaia.32.S1.5</a>.
 </div>
-<div id="ref-Vallas2020-ic" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Vallas2020-ic" class="csl-entry" role="listitem">
 Vallas, Steven, and Juliet B Schor. 2020. <span>“What Do Platforms Do? Understanding the Gig Economy.”</span> <em>Annual Review of Sociology</em> 46 (1): 273–94. <a href="https://doi.org/10.1146/annurev-soc-121919-054857">https://doi.org/10.1146/annurev-soc-121919-054857</a>.
 </div>
-<div id="ref-Wallsten2022-ae" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wallsten2022-ae" class="csl-entry" role="listitem">
 Wallsten, Anna, Malin Henriksson, and Karolina Isaksson. 2022. <span>“The Role of Local Public Authorities in Steering Toward Smart and Sustainable Mobility: Findings from the Stockholm Metropolitan Area.”</span> <em>Planning Practice &amp; Research</em> 37 (5): 532–46. <a href="https://doi.org/10.1080/02697459.2021.1874638">https://doi.org/10.1080/02697459.2021.1874638</a>.
 </div>
 </div>
@@ -349,9 +375,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -387,10 +427,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -400,8 +439,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -416,6 +464,195 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        console.log("RESIZE");
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -468,6 +705,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

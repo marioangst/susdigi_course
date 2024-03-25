@@ -8,6 +8,10 @@ For a very recent overview on sustainable digitalization research with lots of g
 The Digital Reset report [@Digitalization_for_Sustainability_D4S2022-ig] is a great report more targeted toward policymakers.
 
 @Hilty2015-in gives a good overview over a lot of slightly older research that has been carried out on the impact of ICT on sustainability. It also features an interestingly succinct introduction to sustainability.
+
+Specifically on the materiality of the "cloud", @Monserrate2022-sd is striking reading.
+
+I should have written more on "Insolvent", but I still need to finish it. It should be cited here as a nice example of a computer science author engaged deeply with humanities aspects of sustainability: @Christoph_Becker_Director_of_the_Digital_Curation_Institute2023-dv.
 :::
 
 ## Starting point: The LES framework
