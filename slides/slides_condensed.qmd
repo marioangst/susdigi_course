@@ -1,0 +1,209 @@
+---
+title: "Sustainable Digitalization - An introduction"
+subtitle: "DSI PhD Excellence Program 2024 - ~~Professor~~ Postdoc Pitch"
+author: "Mario Angst"
+format:
+  revealjs:
+    self-contained: true
+    footer: "Sustainable Digitalization - An introduction"
+    logo: /img/dsi_logo_white.svg
+    slide-level: 2
+    theme: [default, custom.scss]
+title-slide-attributes:
+  data-background-image: /img/leaf_image.png
+  data-background-size: 100%
+  data-background-opacity: 50%
+---
+
+# Hello
+
+## Resources
+
+Online booklet with minimal content summaries/ further reading and complete sources:
+
+<https://marioangst.github.io/susdigi_course/>
+
+## Me
+
+Mario Angst
+
+Lead sustainability.discourses project @ DSI, Co-Lead DSI Community Sustainability
+
+Past: 🌊,🌲,🌾,⚡,(🛢) governance
+
+Now: 🏙️ and 🖥️+🍀
+
+polsci, susci, comp socsci methods (mostly network analysis, NLP, Bayesian modeling)
+
+Biased toward strong sustainability, bikes and local solutions.
+
+## Goals
+
+- You are exposed to the core components of sustainability as a normative concept
+- You are aware of some existing frameworks to think in a structured way about relating digitalization and sustainability transformations
+- I get to talk a little bit about sustainability imaginaries and where to find them
+
+# Sustainability as a normative concept
+
+## A key differentiation
+
+-   Sustainability as a normative concept, including its discoursive contestation and imaginaries
+-   Sustainability transformations as socio-technical change processes oriented toward sustainability
+
+## The Brundtland definition
+
+This is *the text ©️*
+
+Take 2 minutes to read the text from "Our common future" (1989) in front of you
+
+Take care, this is quite radical stuff
+
+## The Brundtland definition
+
+intra- and intergenerational justice is front and center
+
+> Even the narrow notion of physical sustainability implies a concern for social equity between generations, a concern that must logically be extended to equity within each generation.
+
+but there were/ are many other sustainability definitions
+
+## Making sense of sustainability definitions {.smaller}
+
+It all comes down to substitution of natural capital for future generations
+
+-   weak sustainability: substitution is ok given function is retained and utility non-declining
+
+-   strong sustainability: natural capital needs to be at least maintained
+
+    -   multi-functionality of biosphere
+    -   option space of future generations
+    -   precautionary principle
+
+🤯 Beware of "nature" 🍃
+
+## What about the three pillars?
+
+We don't talk about the three pillars
+
+## What about the UN 2030 Agenda?
+
+-   Outcome of a political process
+-   Anyone remember the Millenium Development Goals? The Agenda 21?
+-   Conceptually weak, normatively... powerful? Evidence is mixed.
+
+# Three core strategies
+
+So sustainability is an interconnected problem of distributive justice and resource use. Three strategies everyone should be aware of in order to reduce resource use:
+
+-   efficiency
+-   sufficiency
+-   consistency
+
+## Decoupling
+
+... (economic) activity from resource use
+
+-   single decoupling: green growth narrative, often efficiency only
+-   double decoupling: efficiency + sufficiency
+
+# Sustainability imaginaries
+
+> "In a certain sense, a sustainable world is a fiction" (Martens 2006, 40):
+
+-   Modernization
+-   Transformation
+-   Control
+
+## Modernization
+
+weak sustainability, "green growth"
+
+![https://radicaloceanfutures.earth/](img/fishinc_simonstalenhag.png)
+
+## Transformation
+
+strong sustainability, post-growth, solidarity economy
+
+![https://radicaloceanfutures.earth/](img/backfromthebrink_simonstalenhag.png)
+
+## Control
+
+resilience, inevitability and emergency
+
+powerful entities solve crises with emergency powers
+
+![https://radicaloceanfutures.earth/](img/Rime_Simonstalenhag_sunset.png)
+
+
+# Sustainable digitalization
+
+## Starting point: The LES framework
+
+- *L*ife cycle impacts
+- *E*nabling impacts
+- *S*tructural impacts
+
+## Life cycle impacts
+
+Actual material impacts
+
+- Production and disposal
+- Operating the infrastructure
+
+Data center example: Energy, land...
+
+## Enabling impact
+
+- New actions that are enabled by digitalization (or prevented)
+
+Three types of enabling impacts regarding resources:
+
+- Process optimization: Immaterial replaces material resource (information reducing travel impacts)
+- Media substitution: material replaces material resource (e-book, physical books)
+- Externalization of control: immaterial replaces immaterial (eg. centralizing a previous process optimization step)
+
+## Structural impact
+
+Persistent macro-level changes in:
+
+- economic structure
+- societal institutions
+
+## LES x core strategies bingo
+
+
+|             | Life-cycle | Enabling | Structural |
+|-------------|------------|----------|------------|
+| Sufficiency |            |          |            |
+| Efficiency  |            |          |            |
+| Consistency |            |          |            |
+
+## Sustainable digitalization imaginaries
+
+- Remember?
+  - Modernization: weak sustainability, green growth
+  - Transformation: strong sustainability, solidarity economy, post-growth
+  - Control: emergency, inevitability, powerful entities "solve"
+  
+# Where I get to talk about finding narratives
+
+## sustainability.discourses
+
+[sustainability.discourses](https://sustainability.discourses.ch/en){target="_blank"} project
+
+- Automated methods for mapping sustainability discourse
+- Application to urban sustainability discourses, specifically sustainable transport
+- Discourse networks
+- Public-facing tools such as [zuerich.sustainability.discourses.ch](https://zuerich.sustainability.discourses.ch/en)
+
+# Weaving Sustainable Digital Future Stories
+
+Course HS 2024
+
+[DSI PhD Excellence Program] X sustainability.discourses X [ZHdK Master Minor Kunst, Wissenschaft, Transformationen]
+
+# Let's talk
+
+- What is your imaginary?
+- Where does your research fit in?
+- Sustainable practices in your life as a researcher (I have some ~~thoughts~~ opinions)
+- (...)
