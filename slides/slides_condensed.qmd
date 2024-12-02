@@ -1,16 +1,15 @@
 ---
 title: "Sustainable Digitalization - An introduction"
-subtitle: "DSI PhD Excellence Program 2024 - ~~Professor~~ Postdoc Pitch"
 author: "Mario Angst"
 format:
   revealjs:
     self-contained: true
     footer: "Sustainable Digitalization - An introduction"
-    logo: /img/dsi_logo_white.svg
+    logo: ./img/dsi_logo_white.svg
     slide-level: 2
     theme: [default, custom.scss]
 title-slide-attributes:
-  data-background-image: /img/leaf_image.png
+  data-background-image: ./img/leaf_image.png
   data-background-size: 100%
   data-background-opacity: 50%
 ---
@@ -27,7 +26,7 @@ Online booklet with minimal content summaries/ further reading and complete sour
 
 Mario Angst
 
-Lead sustainability.discourses project @ DSI, Co-Lead DSI Community Sustainability
+Lead sustainability.discourses project \@ DSI, Co-Lead DSI Community Sustainability
 
 Past: 🌊,🌲,🌾,⚡,(🛢) governance
 
@@ -39,11 +38,18 @@ Biased toward strong sustainability, bikes and local solutions.
 
 ## Goals
 
-- You are exposed to the core components of sustainability as a normative concept
-- You are aware of some existing frameworks to think in a structured way about relating digitalization and sustainability transformations
-- I get to talk a little bit about sustainability imaginaries and where to find them
+-   You are exposed to the core components of sustainability as a normative concept
+-   You are aware of some existing frameworks to think in a structured way about relating digitalization and sustainability transformations
+-   I get to talk a little bit about sustainability imaginaries and where to find them
 
 # Sustainability as a normative concept
+
+## What is sustainability to you?
+
+-   With your left-hand neighbour, discuss for 4 minutes
+    -   What does sustainability mean to you?
+    -   What has been the most sustainable thing you have done recently?
+-   Be prepared to share your thoughts in the group
 
 ## A key differentiation
 
@@ -80,15 +86,19 @@ It all comes down to substitution of natural capital for future generations
 
 🤯 Beware of "nature" 🍃
 
-## What about the three pillars?
+## What about the UN 2030 Agenda? The three pillars? {.smaller}
 
-We don't talk about the three pillars
-
-## What about the UN 2030 Agenda?
+UN 2030 Agenda:
 
 -   Outcome of a political process
 -   Anyone remember the Millenium Development Goals? The Agenda 21?
 -   Conceptually weak, normatively... powerful? Evidence is mixed.
+
+Three pillars:
+
+-   Ecological, economic, social sustainability.
+-   Often encountered, no one knows where they came from.
+-   Very messy very quick.
 
 # Three core strategies
 
@@ -104,6 +114,50 @@ So sustainability is an interconnected problem of distributive justice and resou
 
 -   single decoupling: green growth narrative, often efficiency only
 -   double decoupling: efficiency + sufficiency
+
+# Sustainable digitalization
+
+## Starting point: The LES framework
+
+-   *L*ife cycle impacts
+-   *E*nabling impacts
+-   *S*tructural impacts
+
+## Life cycle impacts
+
+Actual material impacts
+
+-   Production and disposal
+-   Operating the infrastructure
+
+Data center example: Energy, land...
+
+## Enabling impact
+
+-   New actions that are enabled by digitalization (or prevented)
+
+Three types of enabling impacts regarding resources:
+
+-   Process optimization: Immaterial replaces material resource (information reducing travel impacts)
+-   Media substitution: material replaces material resource (e-book, physical books)
+-   Externalization of control: immaterial replaces immaterial (eg. centralizing a previous process optimization step)
+
+## Structural impact
+
+Persistent macro-level changes in:
+
+-   economic structure
+-   societal institutions
+
+## LES x core strategies
+
+|             | Life-cycle | Enabling | Structural |
+|-------------|------------|----------|------------|
+| Sufficiency |            |          |            |
+| Efficiency  |            |          |            |
+| Consistency |            |          |            |
+
+# Break
 
 # Sustainability imaginaries
 
@@ -133,77 +187,19 @@ powerful entities solve crises with emergency powers
 
 ![https://radicaloceanfutures.earth/](img/Rime_Simonstalenhag_sunset.png)
 
+## Sustainable digitalization imaginaries {.smaller}
 
-# Sustainable digitalization
-
-## Starting point: The LES framework
-
-- *L*ife cycle impacts
-- *E*nabling impacts
-- *S*tructural impacts
-
-## Life cycle impacts
-
-Actual material impacts
-
-- Production and disposal
-- Operating the infrastructure
-
-Data center example: Energy, land...
-
-## Enabling impact
-
-- New actions that are enabled by digitalization (or prevented)
-
-Three types of enabling impacts regarding resources:
-
-- Process optimization: Immaterial replaces material resource (information reducing travel impacts)
-- Media substitution: material replaces material resource (e-book, physical books)
-- Externalization of control: immaterial replaces immaterial (eg. centralizing a previous process optimization step)
-
-## Structural impact
-
-Persistent macro-level changes in:
-
-- economic structure
-- societal institutions
-
-## LES x core strategies bingo
-
-
-|             | Life-cycle | Enabling | Structural |
-|-------------|------------|----------|------------|
-| Sufficiency |            |          |            |
-| Efficiency  |            |          |            |
-| Consistency |            |          |            |
-
-## Sustainable digitalization imaginaries
-
-- Remember?
-  - Modernization: weak sustainability, green growth
-  - Transformation: strong sustainability, solidarity economy, post-growth
-  - Control: emergency, inevitability, powerful entities "solve"
-  
-# Where I get to talk about finding narratives
-
-## sustainability.discourses
-
-[sustainability.discourses](https://sustainability.discourses.ch/en){target="_blank"} project
-
-- Automated methods for mapping sustainability discourse
-- Application to urban sustainability discourses, specifically sustainable transport
-- Discourse networks
-- Public-facing tools such as [zuerich.sustainability.discourses.ch](https://zuerich.sustainability.discourses.ch/en)
-
-# Weaving Sustainable Digital Future Stories
-
-Course HS 2024
-
-[DSI PhD Excellence Program] X sustainability.discourses X [ZHdK Master Minor Kunst, Wissenschaft, Transformationen]
+-   Modernization: weak sustainability, green growth
+    -   Examples: AI for sustainability, Smart Sustainable Cities
+-   Transformation: strong sustainability, solidarity economy, post-growth
+    -   Open source movements, right to repair, neo-luddism
+-   Control: emergency, inevitability, powerful entities "solve"
+    -   Examples: Surveillance and ecological credit scores, Earth system geoengineering
 
 # Let's talk
 
-- What is your imaginary?
-- Where does your research fit in?
-- Sustainable practices in your life as a researcher (I have some ~~thoughts~~ opinions)
-- (...)
+-   What is your sustainable digitalization imaginary?
+-   Which imaginary will we get?
+-   Where does your research fit in?
+-   Sustainable digital practices in your life as a researcher (I have some ~~thoughts~~ opinions)
+-   (...)
