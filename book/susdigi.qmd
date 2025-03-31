@@ -3,7 +3,9 @@
 To consider sustainable digitalization, we'll need to combine the concepts we established around sustainability as a normative concept and digitalization and sustainability transformations as socio-technical change processes. Generally, the problem with sustainable digitalization research is that there is not as much as one could expect [@Andersen2021-je].
 
 ::: column-margin
-For a very recent overview on sustainable digitalization research with lots of good references for further reading, see this <a href="https://www.ingentaconnect.com/content/oekom/gaia/2023/00000032/a00101s1">2023 special issue in GAIA </a> [intro: @Barth2023-le].
+For a recent, wide-ranging exploration of the state of the field informed by a historical tour through it by someone who was there for it all, see the talk [On Not Re-inventing the Wheel: An Overview of Research on the Relationship Between Digital Technologies and the Environment](https://cie.research.yale.edu/events/digital-economy-and-environment) by Lorenz Hilty.
+
+This <a href="https://www.ingentaconnect.com/content/oekom/gaia/2023/00000032/a00101s1">2023 special issue in GAIA </a> [intro: @Barth2023-le] gives a good overview on sustainable digitalization research with lots of references for further reading.
 
 The Digital Reset report [@Digitalization_for_Sustainability_D4S2022-ig] is a great report more targeted toward policymakers.
 
@@ -79,7 +81,3 @@ If you ask "which sustainability", you have been paying attention.
 One of the key contributions of the report is the identification of key domain areas, interlocked sustainability and digitalization challenges and some normative design principles (much more focused on deep leverage points) for a "deep" sustainability transformation.
 
 ![Figure from @Digitalization_for_Sustainability_D4S2022-ig [p.13]](images/d4s_figure.png)
-
-## Solutions
-
-🚧 TBD 🚧
