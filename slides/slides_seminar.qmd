@@ -1,0 +1,169 @@
+---
+title: "Sustainable Digitalization - Clarity in Times of Hype"
+author: "Mario Angst"
+format:
+  revealjs:
+    self-contained: true
+    footer: "Sustainable Digitalization - Clarity in Times of Hype"
+    logo: ./img/dsi_logo_white.svg
+    slide-level: 2
+    theme: [default, custom.scss]
+title-slide-attributes:
+  data-background-image: ./img/leaf_image.png
+  data-background-size: 100%
+  data-background-opacity: 50%
+---
+
+# Hello
+
+## Resources
+
+Online booklet with minimal content summaries/ further reading and complete sources:
+
+<https://marioangst.github.io/susdigi_course/>
+
+## Me
+
+Mario Angst
+
+Lead sustainability.discourses project \@ DSI, Co-Lead DSI Community Sustainability
+
+Past: 🌊,🌲,🌾,⚡,(🛢) governance
+
+Now: 🏙️ and 🖥️+🍀
+
+polsci, susci, comp socsci methods (mostly network analysis, NLP, Bayesian modeling)
+
+Biased toward strong sustainability, bikes and local solutions.
+
+## Goals
+
+-   You are able to review core components of sustainability as a normative concept
+-   You are aware of some existing frameworks to think in a structured way about relating digitalization and sustainability transformations
+-   I get to talk a little bit about sustainability imaginaries in digitalization
+
+# Sustainability as a normative concept
+
+## A key differentiation
+
+-   Sustainability as a normative concept, including its discoursive contestation and imaginaries
+-   Sustainability transformations as socio-technical change processes oriented toward sustainability
+
+## The Brundtland definition {.smaller}
+
+> Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs (...)
+
+*intra- and intergenerational justice is front and center*
+
+> Even the narrow notion of physical sustainability implies a concern for social equity between generations, a concern that must logically be extended to equity within each generation.
+
+but there were/ are many other sustainability definitions
+
+## Making sense of sustainability definitions {.smaller}
+
+It all comes down to substitution of natural capital for future generations
+
+-   weak sustainability: substitution is ok given function is retained and utility non-declining
+
+-   strong sustainability: natural capital needs to be at least maintained
+
+    -   multi-functionality of biosphere
+    -   option space of future generations
+    -   precautionary principle
+
+
+# Three core strategies
+
+So sustainability is an interconnected problem of distributive justice and resource use. Three strategies everyone should be aware of in order to reduce resource use:
+
+-   efficiency
+-   sufficiency
+-   consistency
+
+# Sustainable digitalization
+
+## Starting point: The LES framework
+
+-   *L*ife cycle impacts
+-   *E*nabling impacts
+-   *S*tructural impacts
+
+## Life cycle impacts
+
+Actual material impacts
+
+-   Production and disposal
+-   Operating the infrastructure
+
+Data center example: Energy, land...
+
+## Enabling impact
+
+-   New actions that are enabled by digitalization (or prevented)
+
+Three types of enabling impacts regarding resources:
+
+-   Process optimization: Immaterial replaces material resource (information reducing travel impacts)
+-   Media substitution: material replaces material resource (e-book, physical books)
+-   Externalization of control: immaterial replaces immaterial (eg. centralizing a previous process optimization step)
+
+## Structural impact
+
+Persistent macro-level changes in:
+
+-   economic structure
+-   societal institutions
+
+## LES x core strategies
+
+|             | Life-cycle | Enabling | Structural |
+|-------------|------------|----------|------------|
+| Sufficiency |            |          |            |
+| Efficiency  |            |          |            |
+| Consistency |            |          |            |
+
+
+# Sustainability imaginaries
+
+> "In a certain sense, a sustainable world is a fiction" (Martens 2006, 40):
+
+-   Modernization
+-   Transformation
+-   Control
+
+## Modernization
+
+weak sustainability, "green growth"
+
+![https://radicaloceanfutures.earth/](img/fishinc_simonstalenhag.png)
+
+## Transformation
+
+strong sustainability, post-growth, solidarity economy
+
+![https://radicaloceanfutures.earth/](img/backfromthebrink_simonstalenhag.png)
+
+## Control
+
+resilience, inevitability and emergency
+
+powerful entities solve crises with emergency powers
+
+![https://radicaloceanfutures.earth/](img/Rime_Simonstalenhag_sunset.png)
+
+## Sustainable digitalization imaginaries {.smaller}
+
+-   Modernization: weak sustainability, green growth
+    -   Examples: AI for sustainability, Smart Sustainable Cities
+-   Transformation: strong sustainability, solidarity economy, post-growth
+    -   Open source movements, right to repair, neo-luddism
+-   Control: emergency, inevitability, powerful entities "solve"
+    -   Examples: Surveillance and ecological credit scores, Earth system geoengineering
+
+# Let's talk
+
+-   What is your sustainable digitalization imaginary?
+-   Which imaginary will we get?
+-   Where does your research fit in?
+-   Sustainable practices in your life as a researcher (I have some ~~thoughts~~ opinions)
+-   (...)
